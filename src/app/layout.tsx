@@ -7,6 +7,11 @@ import "@/styles/globals.css";
 
 import {cn} from "@/lib/utils";
 import React, {ReactNode} from "react";
+import {Providers} from "@/app/provider";
+
+// import Footer from "@/components/Footer";
+import Navbar from "@/components/global/navbar";
+import Footer from "@/components/global/footer";
 
 const font = Sora({subsets: ["latin"], variable: "--font-sora"});
 
@@ -16,11 +21,30 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}: Readonly<{ children: ReactNode }>) {
+    const menuItems = [
+        {
+            name: 'Inicio',
+            path: '/',
+        },
+        {
+            name: 'Productos',
+            path: '/productos',
+        },
+        {
+            name: 'Puntos de venta',
+            path: '/puntos-ventas',
+        },
+        {
+            name: 'Quiero ser mayorista!',
+            path: '/aplicacion-mayoristas',
+        },
+    ];
+
     return (
         <html lang="en" suppressHydrationWarning>
         <body
             className={cn(
-                "min-h-screen bg-background font-sora antialiased", // Use "font-sora" class
+                "min-h-screen bg-background font-sora antialiased",
                 font.variable
             )}
         >
@@ -30,7 +54,11 @@ export default function RootLayout({children}: Readonly<{ children: ReactNode }>
             enableSystem
             disableTransitionOnChange
         >
-            {children}
+            <Providers>
+                <Navbar menuItems={menuItems}/>
+                {children}
+                <Footer menuItems={menuItems} />
+            </Providers>
         </ThemeProvider>
         </body>
         </html>
