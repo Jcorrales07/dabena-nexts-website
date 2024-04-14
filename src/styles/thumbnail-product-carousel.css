@@ -1,0 +1,114 @@
+.embla-tpc {
+    max-width: 48rem;
+    display: flex;
+    gap: var(--slide-spacing);
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: 100%;
+}
+
+.embla-tpc__viewport {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 520px;
+}
+
+.embla-tpc__container {
+    backface-visibility: hidden;
+    display: flex;
+    touch-action: pan-y;
+    margin-left: calc(var(--slide-spacing) * -1);
+}
+
+.embla-tpc__slide {
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+}
+
+.embla-tpc__slide__number {
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    font-size: 4rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--slide-height);
+}
+
+.embla-tpc-thumbs {
+    --thumbs-slide-spacing: 1rem;
+    --thumbs-slide-height: 6.25rem;
+}
+
+.embla-tpc-thumbs__viewport {
+    overflow: hidden;
+}
+
+.embla-tpc-thumbs__container {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    gap: var(--thumbs-slide-spacing);
+    margin-left: calc(var(--thumbs-slide-spacing) * -1);
+}
+
+.embla-tpc-thumbs__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+@media (min-width: 576px) {
+    .embla-tpc-thumbs__slide {
+        flex: 0 0 15%;
+    }
+}
+
+.embla-tpc-thumbs__slide__number {
+    -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--detail-high-contrast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--thumbs-slide-height);
+    width: 100%;
+}
+
+.embla-tpc-thumbs__slide--selected .embla-tpc-thumbs__slide__number {
+    color: var(--text-body);
+}
+
+@media (max-width: 768px) {
+    .embla-tpc {
+        flex-direction: column-reverse;
+    }
+
+    .embla-tpc-thumbs__container {
+        width: 100%;
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    .embla-tpc-thumbs__slide {
+        flex: 1;
+    }
+
+    .embla-tpc__viewport {
+        overflow: hidden;
+        width: 100%;
+        max-width: 520px;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProductCarousel, SlideItem} from "@/components/carousels/carousel";
+import {ProductCardCarousel, SlideItem} from "@/components/carousels/";
 
 const OPTIONS = {dragFree: true}
 const SLIDE_COUNT = 12
@@ -61,7 +61,7 @@ const ProductCarouselSection = () => {
                 </section>
 
                 {/*Personalizar las targetas de los productos*/}
-                <ProductCarousel slides={list} options={OPTIONS}/>
+                <ProductCardCarousel slides={list} options={OPTIONS}/>
             </div>
         </section>
     );

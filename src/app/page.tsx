@@ -1,6 +1,6 @@
 "use client"
 
-import { ImageCarousel } from "@/components/carousels/carousel";
+import { ImageCarousel } from "@/components/carousels/";
 import ProductCarouselSection from "@/components/pages/landing-page/product-carousel-section";
 import ContactUsSection from "@/components/contacts/contact-us-section";
 import CertificationSection from "@/components/certifications/certification-sections";
