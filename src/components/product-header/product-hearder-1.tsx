@@ -3,11 +3,6 @@ import {BreadcrumbItem, Breadcrumbs, Button, Image, Input, Link} from "@nextui-o
 import {ThumbnailProductCarousel} from "@/components/carousels";
 import {EmblaOptionsType} from "embla-carousel";
 
-interface DetalleProductoProps {
-    params: {
-        productoId: string;
-    };
-}
 
 const OPTIONS: EmblaOptionsType = {}
 const SLIDE_COUNT = 4
@@ -15,17 +10,19 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 import {Accordion, AccordionItem} from "@nextui-org/react";
 
-export default function DetalleProducto({params}: DetalleProductoProps) {
-    const {productoId: producto} = params;
+interface ProductHeader1Props {
+    productoID: string
+}
+
+export default function ProductHeader1({productoID} : ProductHeader1Props) {
+    const producto = productoID;
 
     const defaultContent =
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
-
     return (
         <section
             className="w-full flex flex-col lg:items-center lg:px-[64px] lg:py-[80px] px-[20px] py-[48px] gap-[24px] ">
-
             <section className="w-full">
                 <Breadcrumbs color="foreground">
                     <BreadcrumbItem href={"/productos"}>Productos</BreadcrumbItem>
@@ -108,24 +105,3 @@ export default function DetalleProducto({params}: DetalleProductoProps) {
         </section>
     );
 }
-
-
-//
-// <section className="flex flex-row gap-4 h-[640px]">
-//     <section className="hidden lg:flex flex-col w-20 gap-4">
-//         <Image src="/assets/img1.jpg" alt="as" radius="none"
-//                className="object-cover h-[100px]"/>
-//         <Image src="/assets/img2.jpg" alt="as" radius="none"
-//                className="object-cover h-[100px]"/>
-//         <Image src="/assets/img3.jpg" alt="as" radius="none"
-//                className="object-cover h-[100px]"/>
-//         <Image src="/assets/img4.jpg" alt="as" radius="none"
-//                className="object-cover h-[100px]"/>
-//     </section>
-//
-//     {/* Esto tiene que ser un carousel */}
-//     <section className="border border-black w-full">
-//         <Image src="/assets/img4.jpg" alt="as" radius="none"
-//                className="object-cover h-auto"/>
-//     </section>
-// </section>

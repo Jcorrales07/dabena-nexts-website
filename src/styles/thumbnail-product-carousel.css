@@ -17,13 +17,13 @@
     backface-visibility: hidden;
     display: flex;
     touch-action: pan-y;
-    margin-left: calc(var(--slide-spacing) * -1);
+    gap: var(--slide-spacing);
 }
 
 .embla-tpc__slide {
     flex: 0 0 var(--slide-size);
     min-width: 0;
-    padding-left: var(--slide-spacing);
+    /*padding-left: var(--slide-spacing);*/
 }
 
 .embla-tpc__slide__number {
@@ -50,7 +50,6 @@
     flex-direction: column;
     width: 80px;
     gap: var(--thumbs-slide-spacing);
-    margin-left: calc(var(--thumbs-slide-spacing) * -1);
 }
 
 .embla-tpc-thumbs__slide {
@@ -109,6 +108,6 @@
     .embla-tpc__viewport {
         overflow: hidden;
         width: 100%;
-        max-width: 520px;
+        max-width: 100%;
     }
 }

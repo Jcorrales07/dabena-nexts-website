@@ -1,5 +1,5 @@
 import ProductsCatalog from "@/components/pages/product-page/products-catalog";
-import {InfoSection} from "@/components/ctas/ctas-sections";
+import {InfoSection} from "@/components/features";
 import ContactUsSection from "@/components/contacts/contact-us-section";
 import FAQSection from "@/components/faqs/faq-section";
 import {SingleTestimonialSection} from "@/components/testimonials/testimonial-section";

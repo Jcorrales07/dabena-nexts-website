@@ -5,7 +5,8 @@ import ProductCarouselSection from "@/components/pages/landing-page/product-caro
 import ContactUsSection from "@/components/contacts/contact-us-section";
 import CertificationSection from "@/components/certifications/certification-sections";
 import TestimonialSection from "@/components/testimonials/testimonial-section";
-import {BenefitSection, ExploreCTASection, InfoSection} from "@/components/ctas/ctas-sections";
+import {BenefitSection, InfoSection} from "@/components/features";
+import {ExploreCTASection} from "@/components/ctas"
 import GallerySection from "@/components/galleries/gallery-section";
 
 export default function Home() {
