@@ -1,0 +1,13 @@
+@media (prefers-color-scheme: dark) {
+    .gm-dm {
+        --tw-brightness: brightness(110%);
+        --tw-contrast: contrast(90%);
+        --tw-grayscale: grayscale(20%);
+        --tw-hue-rotate: hue-rotate(180deg);
+        --tw-invert: invert(100%);
+        --tw-saturate: saturate(150%);
+        --tw-sepia: sepia(10%);
+        --tw-drop-shadow: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+        filter: var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+    }
+}

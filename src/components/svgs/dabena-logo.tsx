@@ -46,6 +46,7 @@ export function DabenaLogo({ size }: DabenaLogoProps) {
     return (
         <Image
             alt="dabena logo"
+            radius="none"
             height={size}
             width={size}
             src="/assets/LogoDabena.svg"
