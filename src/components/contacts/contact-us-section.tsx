@@ -8,7 +8,8 @@ import '@/styles/gm-dark-mode.css'
 
 function ContactUsSection() {
     return (
-        <section id={"contacto"} className="w-full flex flex-col lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[48px] lg:gap-[80px]">
+        <section id={"contacto"}
+                 className="w-full flex flex-col lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[48px] lg:gap-[80px]">
             <section>
                 <h2 className="text-4xl lg:text-5xl font-bold mb-4">Contáctanos</h2>
                 <p className="text-base lg:text-lg">Encuentranos:</p>
@@ -16,23 +17,30 @@ function ContactUsSection() {
 
             <section className="flex flex-col gap-[48px] lg:flex-row lg:gap-[80px]">
                 <div className='flex flex-col gap-10'>
-                    <div>
+                    <div className="flex flex-col gap-4">
                         <IoMail/>
-                        <p>Correo electrónico</p>
-                        <p>Envíanos un mensaje</p>
-                        <p>formex.dabena@gmail.com</p>
+                        <div className="flex flex-col gap-2">
+                            <p>Correo electrónico</p>
+                            <p>Envíanos un mensaje</p>
+                            <p>formex.dabena@gmail.com</p>
+                        </div>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-4">
                         <BsFillTelephoneInboundFill/>
-                        <p>Teléfono</p>
-                        <p>Llámanos ahora</p>
-                        <p>+504 9979 - 5366</p>
+                        <div className="flex flex-col gap-2">
+                            <p>Teléfono</p>
+                            <p>Llámanos ahora</p>
+                            <p>+504 9979 - 5366</p>
+                        </div>
                     </div>
-                    <div>
+                    <div className="flex flex-col gap-4">
                         <FaLocationDot/>
-                        <p>Oficina</p>
-                        <p>Barrio Medina.<br/>12 Calle, 3 y 4 Avenida.<br/>Enfrente a la Segunda Iglesia Evalengia y
-                            Reformada.</p>
+
+                        <div className="flex flex-col gap-2">
+                            <p>Oficina</p>
+                            <p className="leading-8">Barrio Medina.<br/>12 Calle, 3 y 4 Avenida.<br/>Enfrente a la Segunda Iglesia Evalengia y
+                                Reformada.</p>
+                        </div>
                     </div>
                 </div>
 
