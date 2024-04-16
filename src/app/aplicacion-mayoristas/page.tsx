@@ -1,5 +1,9 @@
+import {ContactLayout2} from "@/components/contacts";
+
 export default function ApplicacionMayoristas() {
     return (
-        <h1>Pagina de mayoristas</h1>
+        <main className="w-full flex flex-col items-center">
+            <ContactLayout2 />
+        </main>
     );
 }

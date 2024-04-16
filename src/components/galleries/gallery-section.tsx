@@ -5,7 +5,7 @@ function GallerySection() {
     // ${direction === "nvrt" ? 'lg:flex-row-reverse' : 'lg:flex-row'}
     return (
         <section
-            className={`w-full flex flex-col lg:flex-row lg:items-center lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[32px]`}>
+            className={`w-full flex flex-col lg:flex-row justify-center lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[32px]`}>
 
             <section className={'flex flex-col gap-8'}>
                 <Image className="w-[552px] lg:h-full" src={"/assets/img1.jpg"} alt={"img random"}/>

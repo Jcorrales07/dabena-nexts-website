@@ -26,8 +26,8 @@ export default function InfoSection({direction, title, subtext, img_url, img_alt
             </section>
         </section>
 
-        <section className={"max-w-[560px]"}>
-            <Image src={img_url} alt={img_alt} className="w-full" radius={'sm'}/>
+        <section>
+            <Image src={img_url} alt={img_alt} className="w-screen" radius={'sm'}/>
         </section>
     </section>
 }
