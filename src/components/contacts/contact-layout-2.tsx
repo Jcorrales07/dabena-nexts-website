@@ -5,14 +5,25 @@ import React from 'react';
 import {z} from "zod";
 
 const formSchema = z.object({
-    nombre: z.string(),
-    apellido: z.string(),
-    correo: z.string().email(),
-    numero: z.string(),
+    nombre: z.string().min(3, {
+        message: "El nombre debería llevar mas de 3 carácteres"
+    }),
+    apellido: z.string().min(3, {
+        message: "El apellido debería llevar mas de 3 carácteres"
+    }),
+    correo: z.string().email({
+        message: "El correo no es valido, reviselo!"
+    }),
+    numero: z.string()
+        .max(9, {message: "El número telefónico debe tener un mínimo de 9 dígitos incluyendo el espacio"})
+        .min(7, {message: "El número telefónico debe tener un mínimo de 8 dígitos"})
+        .regex(/^(\d{8}|\d{4} \d{4})$/, {
+            message: "El número telefónico debe ser XXXXXXXX o XXXX XXXX",
+        }),
     genero: z.enum(["masculino", "femenino"]),
-    cumple: z.date(),
-    identidad: z.string(),
-    domicilio: z.string(),
+    cumple: z.date().min(new Date("1900-01-01"), { message: "Seguro? 🤔"}).max(new Date(), { message: "No naciste hoy!"}),
+    identidad: z.string().regex(/^\d{4} \d{4} \d{5}$/),
+    domicilio: z.string().min(10),
     comentario: z.string().optional(),
 });
 
@@ -82,7 +93,7 @@ function ContactLayout2() {
                             </FormField>
                         </div>
 
-                        <div className="flex gap-6">
+                        <div className="flex max-sm:flex-col gap-6">
                             <FormField name="correo" control={form.control} render={({field}) => (
                                 <FormItem className={"flex-1"}>
                                     <FormLabel>Correo electrónico</FormLabel>
@@ -99,7 +110,7 @@ function ContactLayout2() {
                                 <FormItem className={"flex-1"}>
                                     <FormLabel>Numero de teléfono</FormLabel>
                                     <FormControl>
-                                        <Input type="text" placeholder="9999-9999"
+                                        <Input type="text" placeholder="xxxx xxxx"
                                                radius="sm" {...form.register("numero")} />
                                     </FormControl>
                                     <FormMessage/>
@@ -113,10 +124,35 @@ function ContactLayout2() {
                                 <FormItem className={"flex-1"}>
                                     <FormLabel>Genero</FormLabel>
                                     <FormControl>
-                                        <RadioGroup orientation="horizontal" {...form.register("nombre")}>
+                                        <RadioGroup orientation="horizontal" {...form.register("genero")}>
                                             <Radio value="masculino">Masculino</Radio>
                                             <Radio value="femenino">Femenino</Radio>
                                         </RadioGroup>
+                                    </FormControl>
+                                    <FormMessage/>
+                                </FormItem>
+                            )}>
+                            </FormField>
+                        </div>
+
+                        <div className="flex max-sm:flex-col gap-6">
+                            <FormField name="cumple" control={form.control} render={({field}) => (
+                                <FormItem className={"flex-1"}>
+                                    <FormLabel>Fecha de nacimiento</FormLabel>
+                                    <FormControl>
+                                        <Input type="date" radius="sm" {...form.register("cumple")} />
+                                    </FormControl>
+                                    <FormMessage/>
+                                </FormItem>
+                            )}>
+                            </FormField>
+
+                            <FormField name="identidad" control={form.control} render={({field}) => (
+                                <FormItem className={"flex-1"}>
+                                    <FormLabel>Numero de identidad</FormLabel>
+                                    <FormControl>
+                                        <Input type="text" placeholder="xxxx xxxx xxxxx"
+                                               radius="sm" {...form.register("identidad")} />
                                     </FormControl>
                                     <FormMessage/>
                                 </FormItem>
