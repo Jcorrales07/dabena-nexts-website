@@ -54,7 +54,7 @@ function ContactLayout2() {
     }
 
     return (
-        <section id="contacto"
+        <section id="aplicacion"
                  className="w-full flex flex-col items-center justify-center lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[48px] lg:gap-[80px]">
 
             <section className="flex flex-col max-w-[768px] gap-12">

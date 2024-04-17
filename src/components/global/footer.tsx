@@ -40,15 +40,15 @@ export default function Footer({menuItems} : FooterProps) {
 
 
             <section className={'w-full flex flex-col items-center'}>
-                <Divider className='bg-black'/>
+                <Divider className='bg-black dark:bg-white'/>
                 <div className={'pt-[24px] pb-[16px] flex flex-col lg:flex-row items-center gap-4'}>
                     <div>Politica de Privacidad</div>
                     <div>Terminos de Servicio</div>
                     <div>Configuracion de Cookies</div>
-
                     <div className='text-center'>© 2024 Dabena. <br className="lg:hidden"/><span>Todos los derechos reservados.</span>
                     </div>
                 </div>
+                <div className={"text-sm font-bold"}>Hecho con 💗 por <Link href={"https://www.instagram.com/jcorralesss/"} target="_blank">Joe Corrales</Link></div>
             </section>
         </footer>
     );
