@@ -22,7 +22,7 @@ export default function FAQLayout3() {
                 <section>
                     <Button
                         radius="none"
-                        className="w-fit border-black"
+                        className="w-fit"
                         variant="ghost"
                         href={'#contacto'}
                         as={Link}
