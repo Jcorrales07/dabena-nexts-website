@@ -13,7 +13,6 @@ export default function InfoSection({direction, title, subtext, img_url, img_alt
 
     // Para hacer un api call es asi
     const makeApiCall = async () => {
-        'use server'
         await fetch('api/hello-world').then(res => res.json()).then(data => console.log(data))
     }
 
