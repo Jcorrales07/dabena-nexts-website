@@ -21,13 +21,13 @@ const formSchema = z.object({
             message: "El número telefónico debe ser XXXXXXXX o XXXX XXXX",
         }),
     genero: z.enum(["masculino", "femenino"]),
-    cumple: z.date().min(new Date("1900-01-01"), { message: "Seguro? 🤔"}).max(new Date(), { message: "No naciste hoy!"}),
+    cumple: z.string(),
+    // cumple: z.date().min(new Date("1900-01-01"), { message: "Seguro? 🤔"}).max(new Date(), { message: "No naciste hoy!"}),
     identidad: z.string().regex(/^\d{4} \d{4} \d{5}$/),
     domicilio: z.string().min(10),
     comentario: z.string().optional(),
 });
 
-// import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "";
 import {useForm} from "react-hook-form";
 import {zodResolver} from "@hookform/resolvers/zod";
 import {
@@ -41,6 +41,17 @@ import {
 } from "@/components/ui/form"
 import {Button, Input, RadioGroup, Radio, Textarea} from "@nextui-org/react";
 
+interface FormData {
+    nombre: string;
+    apellido: string;
+    correo: string;
+    numero: string;
+    genero: "masculino" | "femenino";
+    cumple: string;
+    identidad: string;
+    domicilio: string;
+    comentario?: string | undefined;
+}
 
 function ContactLayout2() {
     const form = useForm<z.infer<typeof formSchema>>({
@@ -48,10 +59,23 @@ function ContactLayout2() {
     });
 
     function onSubmit(values: z.infer<typeof formSchema>) {
-        // Do something with the form values.
-        // ✅ This will be type-safe and validated.
-        console.log(values)
+        saveOnDB(values).then(r => console.log('good'))
     }
+
+    async function saveOnDB(values: FormData) {
+        await fetch('api/aplicacion', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(values),
+        })
+    }
+
+    // enviar el objeto con toda la informacion del form
+    // metodo post
+    // guardarlo en una db
+    // enviar email de notificacion
 
     return (
         <section id="aplicacion"
