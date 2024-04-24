@@ -11,12 +11,6 @@ interface InfoSectionProps {
 }
 
 export default function InfoSection({direction, title, subtext, img_url, img_alt}: InfoSectionProps): JSX.Element {
-
-    // Para hacer un api call es asi
-    const makeApiCall = async () => {
-        await fetch('api/hello-world').then(res => res.json()).then(data => console.log(data))
-    }
-
     return (<section
         className={`w-full flex flex-col ${direction === "nvrt" ? 'lg:flex-row-reverse' : 'lg:flex-row'} lg:items-center lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] gap-[48px] lg:gap-[80px]`}>
         <section className="w-full flex flex-col gap-2">
@@ -30,7 +24,7 @@ export default function InfoSection({direction, title, subtext, img_url, img_alt
                         variant="solid">Comprar</Button>
                 <Button href={"#contacto"} as={Link} radius="sm"
                         variant="ghost">Contacto</Button>
-                <Button onClick={makeApiCall} radius="sm"
+                <Button radius="sm"
                         variant="ghost">Make api call</Button>
             </section>
         </section>

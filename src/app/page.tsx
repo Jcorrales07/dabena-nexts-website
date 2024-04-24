@@ -8,12 +8,8 @@ import TestimonialSection from "@/components/testimonials/testimonial-section";
 import {BenefitSection, InfoSection} from "@/components/features";
 import {ExploreCTASection} from "@/components/ctas"
 import GallerySection from "@/components/galleries/gallery-section";
-import connect from "@/lib/mongo";
 
 export default function Home() {
-
-    connect()
-
     return (
         <main className="w-full flex flex-col items-center">
             <ImageCarousel/>

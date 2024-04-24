@@ -22,6 +22,6 @@ const ApplicationFormSchema: Schema = new Schema({
     identidad: {type: String, required: true, unique: true},
     domicilio: {type: String, required: true},
     comentario: {type: String, required: false},
-});
+}, {timestamps: true});
 
 export default mongoose.model<ApplicationForm>("ApplicationForm", ApplicationFormSchema);

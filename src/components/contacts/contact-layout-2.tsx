@@ -22,7 +22,17 @@ const formSchema = z.object({
         }),
     genero: z.enum(["masculino", "femenino"]),
     cumple: z.string(),
-    // cumple: z.date().min(new Date("1900-01-01"), { message: "Seguro? 🤔"}).max(new Date(), { message: "No naciste hoy!"}),
+    // cumple: z.preprocess(arg => {
+    //     if (typeof arg == "string" || arg instanceof Date) {
+    //         if (typeof arg === "string") {
+    //             const date = arg.split("-")
+    //             const newDate = `${date[1]}-${date[2]}-${date[0]}`
+    //             console.log(newDate)
+    //             return new Date(newDate)
+    //         }
+    //         return new Date(arg)
+    //     }
+    // }, z.date()),
     identidad: z.string().regex(/^\d{4} \d{4} \d{5}$/),
     domicilio: z.string().min(10),
     comentario: z.string().optional(),
@@ -46,7 +56,7 @@ interface FormData {
     apellido: string;
     correo: string;
     numero: string;
-    genero: "masculino" | "femenino";
+    genero: string;
     cumple: string;
     identidad: string;
     domicilio: string;
@@ -59,7 +69,8 @@ function ContactLayout2() {
     });
 
     function onSubmit(values: z.infer<typeof formSchema>) {
-        saveOnDB(values).then(r => console.log('good'))
+        console.log(values)
+        saveOnDB(values).then(() => console.log('good'))
     }
 
     async function saveOnDB(values: FormData) {
@@ -219,6 +230,13 @@ function ContactLayout2() {
                         </div>
 
                         <Button type="submit" radius="sm">Enviar</Button>
+
+                        {/*
+                            WIP: Implementar el isLoading y que si hay un error que me lo diga en el frontend
+                            para que el usuario sepa que pedo
+
+                            Implementar un toast
+                         */}
                     </form>
                 </Form>
             </section>

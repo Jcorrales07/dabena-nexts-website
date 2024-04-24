@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1713956189855" />
+          <option name="id" value="b14c552c-a4d3-4704-bfb5-a6c2f16b6c41" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="2b365c3a-58d7-4585-8fb5-982d78cbb58d" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:3000/api" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiVG9kbyBiaWVuISJ9" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot; : &quot;Todo bien!&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 10:56:29 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b14c552c-a4d3-4704-bfb5-a6c2f16b6c41" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Todo bien!&quot;}" />
+              <option name="size" value="24" />
+              <option name="time" value="800" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713956710751" />
+          <option name="id" value="0ccdcba0-14fe-4ed4-b957-bfab23a65ca5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjp7Im5vbWJyZSI6IkpvZSIsImFwZWxsaWRvIjoiQ29ycmFsZXMiLCJjb3JyZW8iOiJjb3JyYWxlc2pvZTA3QGdtYWlsLmNvbSIsIm51bWVybyI6Ijk3NjU3NjM5IiwiZ2VuZXJvIjoibWFzY3VsaW5vIiwiY3VtcGxlIjoiMjAyNC0wNC0wNFQwMDowMDowMC4wMDBaIiwiaWRlbnRpZGFkIjoiMDUwMSAyMDA0IDA4NDY5IiwiZG9taWNpbGlvIjoiMTIgQ2FsbGUgMTIgQ2FsbGUgMTIgQ2FsbGUgMTIgQ2FsbGUiLCJjb21lbnRhcmlvIjoiIiwiX2lkIjoiNjYyOGU3NjY1ZjlmZDhhMTY1NGE4OWZkIiwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : {&#10;    &quot;nombre&quot; : &quot;Joe&quot;,&#10;    &quot;apellido&quot; : &quot;Corrales&quot;,&#10;    &quot;correo&quot; : &quot;corralesjoe07@gmail.com&quot;,&#10;    &quot;numero&quot; : &quot;97657639&quot;,&#10;    &quot;genero&quot; : &quot;masculino&quot;,&#10;    &quot;cumple&quot; : &quot;2024-04-04T00:00:00.000Z&quot;,&#10;    &quot;identidad&quot; : &quot;0501 2004 08469&quot;,&#10;    &quot;domicilio&quot; : &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;    &quot;comentario&quot; : &quot;&quot;,&#10;    &quot;_id&quot; : &quot;6628e7665f9fd8a1654a89fd&quot;,&#10;    &quot;__v&quot; : 0&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:05:10 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0ccdcba0-14fe-4ed4-b957-bfab23a65ca5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:{&quot;nombre&quot;:&quot;Joe&quot;,&quot;apellido&quot;:&quot;Corrales&quot;,&quot;correo&quot;:&quot;corralesjoe07@gmail.com&quot;,&quot;numero&quot;:&quot;97657639&quot;,&quot;genero&quot;:&quot;masculino&quot;,&quot;cumple&quot;:&quot;2024-04-04T00:00:00.000Z&quot;,&quot;identidad&quot;:&quot;0501 2004 08469&quot;,&quot;domicilio&quot;:&quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&quot;comentario&quot;:&quot;&quot;,&quot;_id&quot;:&quot;6628e7665f9fd8a1654a89fd&quot;,&quot;__v&quot;:0}}" />
+              <option name="size" value="296" />
+              <option name="time" value="4798" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713957211050" />
+          <option name="id" value="98ecffae-c8d0-4478-98a7-299afde0defd" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="95ab4fde-c0e2-4779-8665-91bbe4391a88" />
+              <option name="method" value="GET" />
+              <option name="name" value="All Applications" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHN0eWxlIGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPmJvZHl7ZGlzcGxheTpub25lfTwvc3R5bGU+PG5vc2NyaXB0IGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPjxzdHlsZT5ib2R5e2Rpc3BsYXk6YmxvY2t9PC9zdHlsZT48L25vc2NyaXB0PjxtZXRhIGNoYXJTZXQ9InV0Zi04Ii8+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCIvPjxtZXRhIG5hbWU9Im5leHQtaGVhZC1jb3VudCIgY29udGVudD0iMiIvPjxub3NjcmlwdCBkYXRhLW4tY3NzPSIiPjwvbm9zY3JpcHQ+PHNjcmlwdCBkZWZlcj0iIiBub21vZHVsZT0iIiBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BvbHlmaWxscy5qcyI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3dlYnBhY2suanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2NodW5rcy9tYWluLmpzIiBkZWZlcj0iIj48L3NjcmlwdD48c2NyaXB0IHNyYz0iL19uZXh0L3N0YXRpYy9jaHVua3MvcGFnZXMvX2FwcC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BhZ2VzL19lcnJvci5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvZGV2ZWxvcG1lbnQvX2J1aWxkTWFuaWZlc3QuanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2RldmVsb3BtZW50L19zc2dNYW5pZmVzdC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PG5vc2NyaXB0IGlkPSJfX25leHRfY3NzX19ET19OT1RfVVNFX18iPjwvbm9zY3JpcHQ+PC9oZWFkPjxib2R5PjxkaXYgaWQ9Il9fbmV4dCI+PC9kaXY+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3JlYWN0LXJlZnJlc2guanMiPjwvc2NyaXB0PjxzY3JpcHQgaWQ9Il9fTkVYVF9EQVRBX18iIHR5cGU9ImFwcGxpY2F0aW9uL2pzb24iPnsicHJvcHMiOnsicGFnZVByb3BzIjp7InN0YXR1c0NvZGUiOjUwMH19LCJwYWdlIjoiL19lcnJvciIsInF1ZXJ5Ijp7fSwiYnVpbGRJZCI6ImRldmVsb3BtZW50IiwiaXNGYWxsYmFjayI6ZmFsc2UsImVyciI6eyJuYW1lIjoiT3ZlcndyaXRlTW9kZWxFcnJvciIsInNvdXJjZSI6InNlcnZlciIsIm1lc3NhZ2UiOiJDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuIiwic3RhY2siOiJPdmVyd3JpdGVNb2RlbEVycm9yOiBDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuXG4gICAgYXQgTW9uZ29vc2UubW9kZWwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbW9uZ29vc2VcXGxpYlxcbW9uZ29vc2UuanM6NTc1OjEzKVxuICAgIGF0IGV2YWwgKHdlYnBhY2staW50ZXJuYWw6Ly8vKHJzYykvLi9zcmMvbW9kZWxzL2FwcGxpY2F0aW9uLWZvcm0udHM6NTA6MTE0KVxuICAgIGF0IChyc2MpLy4vc3JjL21vZGVscy9hcHBsaWNhdGlvbi1mb3JtLnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6ODI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgZXZhbCAod2VicGFjay1pbnRlcm5hbDovLy8ocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHM6ODo4MilcbiAgICBhdCAocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHMgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo2MjoxKVxuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18gKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXHdlYnBhY2stcnVudGltZS5qczozMzo0MilcbiAgICBhdCBldmFsICh3ZWJwYWNrLWludGVybmFsOi8vLyhyc2MpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1hcHAtbG9hZGVyLmpzP25hbWU9YXBwJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlXHUwMDI2cGFnZT0lMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZhcHBQYXRocz1cdTAwMjZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZS50c1x1MDAyNmFwcERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlJTVDc3JjJTVDYXBwXHUwMDI2cGFnZUV4dGVuc2lvbnM9dHN4XHUwMDI2cGFnZUV4dGVuc2lvbnM9dHNcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc1x1MDAyNnJvb3REaXI9QyUzQSU1Q1VzZXJzJTVDQ29ycmElNUNXZWJzdG9ybVByb2plY3RzJTVDZGFiZW5hLW5leHQtd2Vic2l0ZVx1MDAyNmlzRGV2PXRydWVcdTAwMjZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvblx1MDAyNmJhc2VQYXRoPVx1MDAyNmFzc2V0UHJlZml4PVx1MDAyNm5leHRDb25maWdPdXRwdXQ9XHUwMDI2cHJlZmVycmVkUmVnaW9uPVx1MDAyNm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIToxNToxNDApXG4gICAgYXQgKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZwYWdlPSUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZVx1MDAyNmFwcFBhdGhzPVx1MDAyNnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlLnRzXHUwMDI2YXBwRGlyPUMlM0ElNUNVc2VycyU1Q0NvcnJhJTVDV2Vic3Rvcm1Qcm9qZWN0cyU1Q2RhYmVuYS1uZXh0LXdlYnNpdGUlNUNzcmMlNUNhcHBcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c1x1MDAyNnBhZ2VFeHRlbnNpb25zPWpzeFx1MDAyNnBhZ2VFeHRlbnNpb25zPWpzXHUwMDI2cm9vdERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlXHUwMDI2aXNEZXY9dHJ1ZVx1MDAyNnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uXHUwMDI2YmFzZVBhdGg9XHUwMDI2YXNzZXRQcmVmaXg9XHUwMDI2bmV4dENvbmZpZ091dHB1dD1cdTAwMjZwcmVmZXJyZWRSZWdpb249XHUwMDI2bWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6NTI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgX193ZWJwYWNrX2V4ZWNfXyAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcYXBwXFxhcGlcXGFwbGljYWNpb25cXHJvdXRlLmpzOjkyOjM5KVxuICAgIGF0IEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo5Mzo4M1xuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18uWCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcd2VicGFjay1ydW50aW1lLmpzOjEyMToyMSlcbiAgICBhdCBDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTM6NDdcbiAgICBhdCBPYmplY3QuXHUwMDNjYW5vbnltb3VzXHUwMDNlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTY6MylcbiAgICBhdCBNb2R1bGUuX2NvbXBpbGUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEzNzg6MTQpXG4gICAgYXQgTW9kdWxlLl9leHRlbnNpb25zLi5qcyAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTQzNzoxMClcbiAgICBhdCBNb2R1bGUubG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTIxMjozMilcbiAgICBhdCBNb2R1bGUuX2xvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEwMjg6MTIpXG4gICAgYXQgTW9kdWxlLnJlcXVpcmUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEyMzc6MTkpXG4gICAgYXQgbW9kLnJlcXVpcmUgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxyZXF1aXJlLWhvb2suanM6NjU6MjgpXG4gICAgYXQgcmVxdWlyZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2hlbHBlcnM6MTc2OjE4KVxuICAgIGF0IHJlcXVpcmVQYWdlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxccmVxdWlyZS5qczoxMDk6ODQpXG4gICAgYXQgQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODo4NFxuICAgIGF0IGFzeW5jIGxvYWRDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODoyNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXG5leHQtc2VydmVyLmpzOjcxMDozNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6NTc3OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5yZW5kZXJQYWdlQ29tcG9uZW50IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6MTkwNToyNClcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIucmVuZGVyVG9SZXNwb25zZUltcGwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxiYXNlLXNlcnZlci5qczoxOTU3OjMyKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5waXBlSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGJhc2Utc2VydmVyLmpzOjkxNToyNSlcbiAgICBhdCBhc3luYyBOZXh0Tm9kZVNlcnZlci5oYW5kbGVDYXRjaGFsbFJlbmRlclJlcXVlc3QgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxuZXh0LXNlcnZlci5qczoyNzI6MTcpXG4gICAgYXQgYXN5bmMgRGV2U2VydmVyLmhhbmRsZVJlcXVlc3RJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6ODExOjE3KVxuICAgIGF0IGFzeW5jIEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxkZXZcXG5leHQtZGV2LXNlcnZlci5qczozMzk6MjBcbiAgICBhdCBhc3luYyBTcGFuLnRyYWNlQXN5bmNGbiAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFx0cmFjZVxcdHJhY2UuanM6MTU0OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5oYW5kbGVSZXF1ZXN0IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6MzM2OjI0KVxuICAgIGF0IGFzeW5jIGludm9rZVJlbmRlciAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczoxNzQ6MjEpXG4gICAgYXQgYXN5bmMgaGFuZGxlUmVxdWVzdCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczozNTM6MjQpXG4gICAgYXQgYXN5bmMgcmVxdWVzdEhhbmRsZXJJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxyb3V0ZXItc2VydmVyLmpzOjM3NzoxMylcbiAgICBhdCBhc3luYyBTZXJ2ZXIucmVxdWVzdExpc3RlbmVyIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxzdGFydC1zZXJ2ZXIuanM6MTQxOjEzKSJ9LCJnaXAiOnRydWUsInNjcmlwdExvYWRlciI6W119PC9zY3JpcHQ+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:121:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-store, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Next.js" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="&quot;l64cszcgti5tz&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept-Encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:13:31 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="98ecffae-c8d0-4478-98a7-299afde0defd" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:121:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="1556" />
+              <option name="time" value="2405" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713957245325" />
+          <option name="id" value="b3a3facc-0234-4189-a9ee-0b229dacfaa7" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="95ab4fde-c0e2-4779-8665-91bbe4391a88" />
+              <option name="method" value="GET" />
+              <option name="name" value="All Applications" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjpbeyJfaWQiOiI2NjI4ZTc2NjVmOWZkOGExNjU0YTg5ZmQiLCJub21icmUiOiJKb2UiLCJhcGVsbGlkbyI6IkNvcnJhbGVzIiwiY29ycmVvIjoiY29ycmFsZXNqb2UwN0BnbWFpbC5jb20iLCJudW1lcm8iOiI5NzY1NzYzOSIsImdlbmVybyI6Im1hc2N1bGlubyIsImN1bXBsZSI6IjIwMjQtMDQtMDRUMDA6MDA6MDAuMDAwWiIsImlkZW50aWRhZCI6IjA1MDEgMjAwNCAwODQ2OSIsImRvbWljaWxpbyI6IjEyIENhbGxlIDEyIENhbGxlIDEyIENhbGxlIDEyIENhbGxlIiwiY29tZW50YXJpbyI6IiIsIl9fdiI6MH1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : [&#10;    {&#10;      &quot;_id&quot; : &quot;6628e7665f9fd8a1654a89fd&quot;,&#10;      &quot;nombre&quot; : &quot;Joe&quot;,&#10;      &quot;apellido&quot; : &quot;Corrales&quot;,&#10;      &quot;correo&quot; : &quot;corralesjoe07@gmail.com&quot;,&#10;      &quot;numero&quot; : &quot;97657639&quot;,&#10;      &quot;genero&quot; : &quot;masculino&quot;,&#10;      &quot;cumple&quot; : &quot;2024-04-04T00:00:00.000Z&quot;,&#10;      &quot;identidad&quot; : &quot;0501 2004 08469&quot;,&#10;      &quot;domicilio&quot; : &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;      &quot;comentario&quot; : &quot;&quot;,&#10;      &quot;__v&quot; : 0&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:14:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b3a3facc-0234-4189-a9ee-0b229dacfaa7" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:[{&quot;_id&quot;:&quot;6628e7665f9fd8a1654a89fd&quot;,&quot;nombre&quot;:&quot;Joe&quot;,&quot;apellido&quot;:&quot;Corrales&quot;,&quot;correo&quot;:&quot;corralesjoe07@gmail.com&quot;,&quot;numero&quot;:&quot;97657639&quot;,&quot;genero&quot;:&quot;masculino&quot;,&quot;cumple&quot;:&quot;2024-04-04T00:00:00.000Z&quot;,&quot;identidad&quot;:&quot;0501 2004 08469&quot;,&quot;domicilio&quot;:&quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&quot;comentario&quot;:&quot;&quot;,&quot;__v&quot;:0}]}" />
+              <option name="size" value="298" />
+              <option name="time" value="3573" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713957265750" />
+          <option name="id" value="80cb99ad-c4d8-4dcc-8da0-7432a9a8f9b3" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="95ab4fde-c0e2-4779-8665-91bbe4391a88" />
+              <option name="method" value="GET" />
+              <option name="name" value="All Applications" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjpbXX0=" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : []&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:14:25 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="80cb99ad-c4d8-4dcc-8da0-7432a9a8f9b3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:[]}" />
+              <option name="size" value="11" />
+              <option name="time" value="88" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713957276183" />
+          <option name="id" value="4473c9f8-2bef-4ba4-b878-4dd53893b9f4" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjp7Im5vbWJyZSI6IkpvZSIsImFwZWxsaWRvIjoiQ29ycmFsZXMiLCJjb3JyZW8iOiJjb3JyYWxlc2pvZTA3QGdtYWlsLmNvbSIsIm51bWVybyI6Ijk3NjU3NjM5IiwiZ2VuZXJvIjoibWFzY3VsaW5vIiwiY3VtcGxlIjoiMjAyNC0wNC0wNFQwMDowMDowMC4wMDBaIiwiaWRlbnRpZGFkIjoiMDUwMSAyMDA0IDA4NDY5IiwiZG9taWNpbGlvIjoiMTIgQ2FsbGUgMTIgQ2FsbGUgMTIgQ2FsbGUgMTIgQ2FsbGUiLCJjb21lbnRhcmlvIjoiIiwiX2lkIjoiNjYyOGU5OWJjYzgyOGRkNmJmM2I5NzNmIiwiY3JlYXRlZEF0IjoiMjAyNC0wNC0yNFQxMToxNDozNS45NTdaIiwidXBkYXRlZEF0IjoiMjAyNC0wNC0yNFQxMToxNDozNS45NTdaIiwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : {&#10;    &quot;nombre&quot; : &quot;Joe&quot;,&#10;    &quot;apellido&quot; : &quot;Corrales&quot;,&#10;    &quot;correo&quot; : &quot;corralesjoe07@gmail.com&quot;,&#10;    &quot;numero&quot; : &quot;97657639&quot;,&#10;    &quot;genero&quot; : &quot;masculino&quot;,&#10;    &quot;cumple&quot; : &quot;2024-04-04T00:00:00.000Z&quot;,&#10;    &quot;identidad&quot; : &quot;0501 2004 08469&quot;,&#10;    &quot;domicilio&quot; : &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;    &quot;comentario&quot; : &quot;&quot;,&#10;    &quot;_id&quot; : &quot;6628e99bcc828dd6bf3b973f&quot;,&#10;    &quot;createdAt&quot; : &quot;2024-04-24T11:14:35.957Z&quot;,&#10;    &quot;updatedAt&quot; : &quot;2024-04-24T11:14:35.957Z&quot;,&#10;    &quot;__v&quot; : 0&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:14:36 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4473c9f8-2bef-4ba4-b878-4dd53893b9f4" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:{&quot;nombre&quot;:&quot;Joe&quot;,&quot;apellido&quot;:&quot;Corrales&quot;,&quot;correo&quot;:&quot;corralesjoe07@gmail.com&quot;,&quot;numero&quot;:&quot;97657639&quot;,&quot;genero&quot;:&quot;masculino&quot;,&quot;cumple&quot;:&quot;2024-04-04T00:00:00.000Z&quot;,&quot;identidad&quot;:&quot;0501 2004 08469&quot;,&quot;domicilio&quot;:&quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&quot;comentario&quot;:&quot;&quot;,&quot;_id&quot;:&quot;6628e99bcc828dd6bf3b973f&quot;,&quot;createdAt&quot;:&quot;2024-04-24T11:14:35.957Z&quot;,&quot;updatedAt&quot;:&quot;2024-04-24T11:14:35.957Z&quot;,&quot;__v&quot;:0}}" />
+              <option name="size" value="374" />
+              <option name="time" value="249" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713957285153" />
+          <option name="id" value="9e34a906-7277-4586-927a-8c9c06afb3f8" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="95ab4fde-c0e2-4779-8665-91bbe4391a88" />
+              <option name="method" value="GET" />
+              <option name="name" value="All Applications" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjpbeyJfaWQiOiI2NjI4ZTk5YmNjODI4ZGQ2YmYzYjk3M2YiLCJub21icmUiOiJKb2UiLCJhcGVsbGlkbyI6IkNvcnJhbGVzIiwiY29ycmVvIjoiY29ycmFsZXNqb2UwN0BnbWFpbC5jb20iLCJudW1lcm8iOiI5NzY1NzYzOSIsImdlbmVybyI6Im1hc2N1bGlubyIsImN1bXBsZSI6IjIwMjQtMDQtMDRUMDA6MDA6MDAuMDAwWiIsImlkZW50aWRhZCI6IjA1MDEgMjAwNCAwODQ2OSIsImRvbWljaWxpbyI6IjEyIENhbGxlIDEyIENhbGxlIDEyIENhbGxlIDEyIENhbGxlIiwiY29tZW50YXJpbyI6IiIsImNyZWF0ZWRBdCI6IjIwMjQtMDQtMjRUMTE6MTQ6MzUuOTU3WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDQtMjRUMTE6MTQ6MzUuOTU3WiIsIl9fdiI6MH1dfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : [&#10;    {&#10;      &quot;_id&quot; : &quot;6628e99bcc828dd6bf3b973f&quot;,&#10;      &quot;nombre&quot; : &quot;Joe&quot;,&#10;      &quot;apellido&quot; : &quot;Corrales&quot;,&#10;      &quot;correo&quot; : &quot;corralesjoe07@gmail.com&quot;,&#10;      &quot;numero&quot; : &quot;97657639&quot;,&#10;      &quot;genero&quot; : &quot;masculino&quot;,&#10;      &quot;cumple&quot; : &quot;2024-04-04T00:00:00.000Z&quot;,&#10;      &quot;identidad&quot; : &quot;0501 2004 08469&quot;,&#10;      &quot;domicilio&quot; : &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;      &quot;comentario&quot; : &quot;&quot;,&#10;      &quot;createdAt&quot; : &quot;2024-04-24T11:14:35.957Z&quot;,&#10;      &quot;updatedAt&quot; : &quot;2024-04-24T11:14:35.957Z&quot;,&#10;      &quot;__v&quot; : 0&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 11:14:45 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9e34a906-7277-4586-927a-8c9c06afb3f8" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:[{&quot;_id&quot;:&quot;6628e99bcc828dd6bf3b973f&quot;,&quot;nombre&quot;:&quot;Joe&quot;,&quot;apellido&quot;:&quot;Corrales&quot;,&quot;correo&quot;:&quot;corralesjoe07@gmail.com&quot;,&quot;numero&quot;:&quot;97657639&quot;,&quot;genero&quot;:&quot;masculino&quot;,&quot;cumple&quot;:&quot;2024-04-04T00:00:00.000Z&quot;,&quot;identidad&quot;:&quot;0501 2004 08469&quot;,&quot;domicilio&quot;:&quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&quot;comentario&quot;:&quot;&quot;,&quot;createdAt&quot;:&quot;2024-04-24T11:14:35.957Z&quot;,&quot;updatedAt&quot;:&quot;2024-04-24T11:14:35.957Z&quot;,&quot;__v&quot;:0}]}" />
+              <option name="size" value="376" />
+              <option name="time" value="85" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713960260899" />
+          <option name="id" value="5681a4f6-0806-45fd-8d78-2aeb666adb28" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHN0eWxlIGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPmJvZHl7ZGlzcGxheTpub25lfTwvc3R5bGU+PG5vc2NyaXB0IGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPjxzdHlsZT5ib2R5e2Rpc3BsYXk6YmxvY2t9PC9zdHlsZT48L25vc2NyaXB0PjxtZXRhIGNoYXJTZXQ9InV0Zi04Ii8+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCIvPjxtZXRhIG5hbWU9Im5leHQtaGVhZC1jb3VudCIgY29udGVudD0iMiIvPjxub3NjcmlwdCBkYXRhLW4tY3NzPSIiPjwvbm9zY3JpcHQ+PHNjcmlwdCBkZWZlcj0iIiBub21vZHVsZT0iIiBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BvbHlmaWxscy5qcyI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3dlYnBhY2suanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2NodW5rcy9tYWluLmpzIiBkZWZlcj0iIj48L3NjcmlwdD48c2NyaXB0IHNyYz0iL19uZXh0L3N0YXRpYy9jaHVua3MvcGFnZXMvX2FwcC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BhZ2VzL19lcnJvci5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvZGV2ZWxvcG1lbnQvX2J1aWxkTWFuaWZlc3QuanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2RldmVsb3BtZW50L19zc2dNYW5pZmVzdC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PG5vc2NyaXB0IGlkPSJfX25leHRfY3NzX19ET19OT1RfVVNFX18iPjwvbm9zY3JpcHQ+PC9oZWFkPjxib2R5PjxkaXYgaWQ9Il9fbmV4dCI+PC9kaXY+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3JlYWN0LXJlZnJlc2guanMiPjwvc2NyaXB0PjxzY3JpcHQgaWQ9Il9fTkVYVF9EQVRBX18iIHR5cGU9ImFwcGxpY2F0aW9uL2pzb24iPnsicHJvcHMiOnsicGFnZVByb3BzIjp7InN0YXR1c0NvZGUiOjUwMH19LCJwYWdlIjoiL19lcnJvciIsInF1ZXJ5Ijp7fSwiYnVpbGRJZCI6ImRldmVsb3BtZW50IiwiaXNGYWxsYmFjayI6ZmFsc2UsImVyciI6eyJuYW1lIjoiT3ZlcndyaXRlTW9kZWxFcnJvciIsInNvdXJjZSI6InNlcnZlciIsIm1lc3NhZ2UiOiJDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuIiwic3RhY2siOiJPdmVyd3JpdGVNb2RlbEVycm9yOiBDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuXG4gICAgYXQgTW9uZ29vc2UubW9kZWwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbW9uZ29vc2VcXGxpYlxcbW9uZ29vc2UuanM6NTc1OjEzKVxuICAgIGF0IGV2YWwgKHdlYnBhY2staW50ZXJuYWw6Ly8vKHJzYykvLi9zcmMvbW9kZWxzL2FwcGxpY2F0aW9uLWZvcm0udHM6NTA6MTE0KVxuICAgIGF0IChyc2MpLy4vc3JjL21vZGVscy9hcHBsaWNhdGlvbi1mb3JtLnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6ODI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgZXZhbCAod2VicGFjay1pbnRlcm5hbDovLy8ocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHM6ODo4MilcbiAgICBhdCAocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHMgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo2MjoxKVxuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18gKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXHdlYnBhY2stcnVudGltZS5qczozMzo0MilcbiAgICBhdCBldmFsICh3ZWJwYWNrLWludGVybmFsOi8vLyhyc2MpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1hcHAtbG9hZGVyLmpzP25hbWU9YXBwJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlXHUwMDI2cGFnZT0lMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZhcHBQYXRocz1cdTAwMjZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZS50c1x1MDAyNmFwcERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlJTVDc3JjJTVDYXBwXHUwMDI2cGFnZUV4dGVuc2lvbnM9dHN4XHUwMDI2cGFnZUV4dGVuc2lvbnM9dHNcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc1x1MDAyNnJvb3REaXI9QyUzQSU1Q1VzZXJzJTVDQ29ycmElNUNXZWJzdG9ybVByb2plY3RzJTVDZGFiZW5hLW5leHQtd2Vic2l0ZVx1MDAyNmlzRGV2PXRydWVcdTAwMjZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvblx1MDAyNmJhc2VQYXRoPVx1MDAyNmFzc2V0UHJlZml4PVx1MDAyNm5leHRDb25maWdPdXRwdXQ9XHUwMDI2cHJlZmVycmVkUmVnaW9uPVx1MDAyNm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIToxNToxNDApXG4gICAgYXQgKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZwYWdlPSUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZVx1MDAyNmFwcFBhdGhzPVx1MDAyNnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlLnRzXHUwMDI2YXBwRGlyPUMlM0ElNUNVc2VycyU1Q0NvcnJhJTVDV2Vic3Rvcm1Qcm9qZWN0cyU1Q2RhYmVuYS1uZXh0LXdlYnNpdGUlNUNzcmMlNUNhcHBcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c1x1MDAyNnBhZ2VFeHRlbnNpb25zPWpzeFx1MDAyNnBhZ2VFeHRlbnNpb25zPWpzXHUwMDI2cm9vdERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlXHUwMDI2aXNEZXY9dHJ1ZVx1MDAyNnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uXHUwMDI2YmFzZVBhdGg9XHUwMDI2YXNzZXRQcmVmaXg9XHUwMDI2bmV4dENvbmZpZ091dHB1dD1cdTAwMjZwcmVmZXJyZWRSZWdpb249XHUwMDI2bWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6NTI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgX193ZWJwYWNrX2V4ZWNfXyAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcYXBwXFxhcGlcXGFwbGljYWNpb25cXHJvdXRlLmpzOjkyOjM5KVxuICAgIGF0IEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo5Mzo4M1xuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18uWCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcd2VicGFjay1ydW50aW1lLmpzOjE2ODoyMSlcbiAgICBhdCBDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTM6NDdcbiAgICBhdCBPYmplY3QuXHUwMDNjYW5vbnltb3VzXHUwMDNlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTY6MylcbiAgICBhdCBNb2R1bGUuX2NvbXBpbGUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEzNzg6MTQpXG4gICAgYXQgTW9kdWxlLl9leHRlbnNpb25zLi5qcyAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTQzNzoxMClcbiAgICBhdCBNb2R1bGUubG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTIxMjozMilcbiAgICBhdCBNb2R1bGUuX2xvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEwMjg6MTIpXG4gICAgYXQgTW9kdWxlLnJlcXVpcmUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEyMzc6MTkpXG4gICAgYXQgbW9kLnJlcXVpcmUgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxyZXF1aXJlLWhvb2suanM6NjU6MjgpXG4gICAgYXQgcmVxdWlyZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2hlbHBlcnM6MTc2OjE4KVxuICAgIGF0IHJlcXVpcmVQYWdlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxccmVxdWlyZS5qczoxMDk6ODQpXG4gICAgYXQgQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODo4NFxuICAgIGF0IGFzeW5jIGxvYWRDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODoyNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXG5leHQtc2VydmVyLmpzOjcxMDozNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6NTc3OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5yZW5kZXJQYWdlQ29tcG9uZW50IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6MTkwNToyNClcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIucmVuZGVyVG9SZXNwb25zZUltcGwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxiYXNlLXNlcnZlci5qczoxOTU3OjMyKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5waXBlSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGJhc2Utc2VydmVyLmpzOjkxNToyNSlcbiAgICBhdCBhc3luYyBOZXh0Tm9kZVNlcnZlci5oYW5kbGVDYXRjaGFsbFJlbmRlclJlcXVlc3QgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxuZXh0LXNlcnZlci5qczoyNzI6MTcpXG4gICAgYXQgYXN5bmMgRGV2U2VydmVyLmhhbmRsZVJlcXVlc3RJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6ODExOjE3KVxuICAgIGF0IGFzeW5jIEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxkZXZcXG5leHQtZGV2LXNlcnZlci5qczozMzk6MjBcbiAgICBhdCBhc3luYyBTcGFuLnRyYWNlQXN5bmNGbiAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFx0cmFjZVxcdHJhY2UuanM6MTU0OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5oYW5kbGVSZXF1ZXN0IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6MzM2OjI0KVxuICAgIGF0IGFzeW5jIGludm9rZVJlbmRlciAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczoxNzQ6MjEpXG4gICAgYXQgYXN5bmMgaGFuZGxlUmVxdWVzdCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczozNTM6MjQpXG4gICAgYXQgYXN5bmMgcmVxdWVzdEhhbmRsZXJJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxyb3V0ZXItc2VydmVyLmpzOjM3NzoxMylcbiAgICBhdCBhc3luYyBTZXJ2ZXIucmVxdWVzdExpc3RlbmVyIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxzdGFydC1zZXJ2ZXIuanM6MTQxOjEzKSJ9LCJnaXAiOnRydWUsInNjcmlwdExvYWRlciI6W119PC9zY3JpcHQ+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-store, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Next.js" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="&quot;17fnz0mv27u5tz&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept-Encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 12:04:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5681a4f6-0806-45fd-8d78-2aeb666adb28" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="1557" />
+              <option name="time" value="62" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713960281525" />
+          <option name="id" value="e95121de-6945-4248-af87-3fc1edc75432" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHN0eWxlIGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPmJvZHl7ZGlzcGxheTpub25lfTwvc3R5bGU+PG5vc2NyaXB0IGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPjxzdHlsZT5ib2R5e2Rpc3BsYXk6YmxvY2t9PC9zdHlsZT48L25vc2NyaXB0PjxtZXRhIGNoYXJTZXQ9InV0Zi04Ii8+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCIvPjxtZXRhIG5hbWU9Im5leHQtaGVhZC1jb3VudCIgY29udGVudD0iMiIvPjxub3NjcmlwdCBkYXRhLW4tY3NzPSIiPjwvbm9zY3JpcHQ+PHNjcmlwdCBkZWZlcj0iIiBub21vZHVsZT0iIiBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BvbHlmaWxscy5qcyI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3dlYnBhY2suanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2NodW5rcy9tYWluLmpzIiBkZWZlcj0iIj48L3NjcmlwdD48c2NyaXB0IHNyYz0iL19uZXh0L3N0YXRpYy9jaHVua3MvcGFnZXMvX2FwcC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BhZ2VzL19lcnJvci5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvZGV2ZWxvcG1lbnQvX2J1aWxkTWFuaWZlc3QuanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2RldmVsb3BtZW50L19zc2dNYW5pZmVzdC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PG5vc2NyaXB0IGlkPSJfX25leHRfY3NzX19ET19OT1RfVVNFX18iPjwvbm9zY3JpcHQ+PC9oZWFkPjxib2R5PjxkaXYgaWQ9Il9fbmV4dCI+PC9kaXY+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3JlYWN0LXJlZnJlc2guanMiPjwvc2NyaXB0PjxzY3JpcHQgaWQ9Il9fTkVYVF9EQVRBX18iIHR5cGU9ImFwcGxpY2F0aW9uL2pzb24iPnsicHJvcHMiOnsicGFnZVByb3BzIjp7InN0YXR1c0NvZGUiOjUwMH19LCJwYWdlIjoiL19lcnJvciIsInF1ZXJ5Ijp7fSwiYnVpbGRJZCI6ImRldmVsb3BtZW50IiwiaXNGYWxsYmFjayI6ZmFsc2UsImVyciI6eyJuYW1lIjoiT3ZlcndyaXRlTW9kZWxFcnJvciIsInNvdXJjZSI6InNlcnZlciIsIm1lc3NhZ2UiOiJDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuIiwic3RhY2siOiJPdmVyd3JpdGVNb2RlbEVycm9yOiBDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuXG4gICAgYXQgTW9uZ29vc2UubW9kZWwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbW9uZ29vc2VcXGxpYlxcbW9uZ29vc2UuanM6NTc1OjEzKVxuICAgIGF0IGV2YWwgKHdlYnBhY2staW50ZXJuYWw6Ly8vKHJzYykvLi9zcmMvbW9kZWxzL2FwcGxpY2F0aW9uLWZvcm0udHM6NTA6MTE0KVxuICAgIGF0IChyc2MpLy4vc3JjL21vZGVscy9hcHBsaWNhdGlvbi1mb3JtLnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6ODI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgZXZhbCAod2VicGFjay1pbnRlcm5hbDovLy8ocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHM6ODo4MilcbiAgICBhdCAocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHMgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo2MjoxKVxuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18gKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXHdlYnBhY2stcnVudGltZS5qczozMzo0MilcbiAgICBhdCBldmFsICh3ZWJwYWNrLWludGVybmFsOi8vLyhyc2MpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1hcHAtbG9hZGVyLmpzP25hbWU9YXBwJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlXHUwMDI2cGFnZT0lMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZhcHBQYXRocz1cdTAwMjZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZS50c1x1MDAyNmFwcERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlJTVDc3JjJTVDYXBwXHUwMDI2cGFnZUV4dGVuc2lvbnM9dHN4XHUwMDI2cGFnZUV4dGVuc2lvbnM9dHNcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc1x1MDAyNnJvb3REaXI9QyUzQSU1Q1VzZXJzJTVDQ29ycmElNUNXZWJzdG9ybVByb2plY3RzJTVDZGFiZW5hLW5leHQtd2Vic2l0ZVx1MDAyNmlzRGV2PXRydWVcdTAwMjZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvblx1MDAyNmJhc2VQYXRoPVx1MDAyNmFzc2V0UHJlZml4PVx1MDAyNm5leHRDb25maWdPdXRwdXQ9XHUwMDI2cHJlZmVycmVkUmVnaW9uPVx1MDAyNm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIToxNToxNDApXG4gICAgYXQgKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZwYWdlPSUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZVx1MDAyNmFwcFBhdGhzPVx1MDAyNnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlLnRzXHUwMDI2YXBwRGlyPUMlM0ElNUNVc2VycyU1Q0NvcnJhJTVDV2Vic3Rvcm1Qcm9qZWN0cyU1Q2RhYmVuYS1uZXh0LXdlYnNpdGUlNUNzcmMlNUNhcHBcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c1x1MDAyNnBhZ2VFeHRlbnNpb25zPWpzeFx1MDAyNnBhZ2VFeHRlbnNpb25zPWpzXHUwMDI2cm9vdERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlXHUwMDI2aXNEZXY9dHJ1ZVx1MDAyNnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uXHUwMDI2YmFzZVBhdGg9XHUwMDI2YXNzZXRQcmVmaXg9XHUwMDI2bmV4dENvbmZpZ091dHB1dD1cdTAwMjZwcmVmZXJyZWRSZWdpb249XHUwMDI2bWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6NTI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgX193ZWJwYWNrX2V4ZWNfXyAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcYXBwXFxhcGlcXGFwbGljYWNpb25cXHJvdXRlLmpzOjkyOjM5KVxuICAgIGF0IEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo5Mzo4M1xuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18uWCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcd2VicGFjay1ydW50aW1lLmpzOjE2ODoyMSlcbiAgICBhdCBDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTM6NDdcbiAgICBhdCBPYmplY3QuXHUwMDNjYW5vbnltb3VzXHUwMDNlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTY6MylcbiAgICBhdCBNb2R1bGUuX2NvbXBpbGUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEzNzg6MTQpXG4gICAgYXQgTW9kdWxlLl9leHRlbnNpb25zLi5qcyAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTQzNzoxMClcbiAgICBhdCBNb2R1bGUubG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTIxMjozMilcbiAgICBhdCBNb2R1bGUuX2xvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEwMjg6MTIpXG4gICAgYXQgTW9kdWxlLnJlcXVpcmUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEyMzc6MTkpXG4gICAgYXQgbW9kLnJlcXVpcmUgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxyZXF1aXJlLWhvb2suanM6NjU6MjgpXG4gICAgYXQgcmVxdWlyZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2hlbHBlcnM6MTc2OjE4KVxuICAgIGF0IHJlcXVpcmVQYWdlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxccmVxdWlyZS5qczoxMDk6ODQpXG4gICAgYXQgQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODo4NFxuICAgIGF0IGFzeW5jIGxvYWRDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODoyNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXG5leHQtc2VydmVyLmpzOjcxMDozNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6NTc3OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5yZW5kZXJQYWdlQ29tcG9uZW50IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6MTkwNToyNClcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIucmVuZGVyVG9SZXNwb25zZUltcGwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxiYXNlLXNlcnZlci5qczoxOTU3OjMyKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5waXBlSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGJhc2Utc2VydmVyLmpzOjkxNToyNSlcbiAgICBhdCBhc3luYyBOZXh0Tm9kZVNlcnZlci5oYW5kbGVDYXRjaGFsbFJlbmRlclJlcXVlc3QgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxuZXh0LXNlcnZlci5qczoyNzI6MTcpXG4gICAgYXQgYXN5bmMgRGV2U2VydmVyLmhhbmRsZVJlcXVlc3RJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6ODExOjE3KVxuICAgIGF0IGFzeW5jIEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxkZXZcXG5leHQtZGV2LXNlcnZlci5qczozMzk6MjBcbiAgICBhdCBhc3luYyBTcGFuLnRyYWNlQXN5bmNGbiAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFx0cmFjZVxcdHJhY2UuanM6MTU0OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5oYW5kbGVSZXF1ZXN0IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6MzM2OjI0KVxuICAgIGF0IGFzeW5jIGludm9rZVJlbmRlciAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczoxNzQ6MjEpXG4gICAgYXQgYXN5bmMgaGFuZGxlUmVxdWVzdCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczozNTM6MjQpXG4gICAgYXQgYXN5bmMgcmVxdWVzdEhhbmRsZXJJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxyb3V0ZXItc2VydmVyLmpzOjM3NzoxMylcbiAgICBhdCBhc3luYyBTZXJ2ZXIucmVxdWVzdExpc3RlbmVyIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxzdGFydC1zZXJ2ZXIuanM6MTQxOjEzKSJ9LCJnaXAiOnRydWUsInNjcmlwdExvYWRlciI6W119PC9zY3JpcHQ+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-store, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Next.js" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="&quot;17fnz0mv27u5tz&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept-Encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 12:04:41 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e95121de-6945-4248-af87-3fc1edc75432" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="1557" />
+              <option name="time" value="36" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713960282299" />
+          <option name="id" value="9e1a0233-f946-4274-9726-8cf1de9d84fc" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHN0eWxlIGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPmJvZHl7ZGlzcGxheTpub25lfTwvc3R5bGU+PG5vc2NyaXB0IGRhdGEtbmV4dC1oaWRlLWZvdWM9InRydWUiPjxzdHlsZT5ib2R5e2Rpc3BsYXk6YmxvY2t9PC9zdHlsZT48L25vc2NyaXB0PjxtZXRhIGNoYXJTZXQ9InV0Zi04Ii8+PG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCIvPjxtZXRhIG5hbWU9Im5leHQtaGVhZC1jb3VudCIgY29udGVudD0iMiIvPjxub3NjcmlwdCBkYXRhLW4tY3NzPSIiPjwvbm9zY3JpcHQ+PHNjcmlwdCBkZWZlcj0iIiBub21vZHVsZT0iIiBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BvbHlmaWxscy5qcyI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3dlYnBhY2suanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2NodW5rcy9tYWluLmpzIiBkZWZlcj0iIj48L3NjcmlwdD48c2NyaXB0IHNyYz0iL19uZXh0L3N0YXRpYy9jaHVua3MvcGFnZXMvX2FwcC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3BhZ2VzL19lcnJvci5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvZGV2ZWxvcG1lbnQvX2J1aWxkTWFuaWZlc3QuanMiIGRlZmVyPSIiPjwvc2NyaXB0PjxzY3JpcHQgc3JjPSIvX25leHQvc3RhdGljL2RldmVsb3BtZW50L19zc2dNYW5pZmVzdC5qcyIgZGVmZXI9IiI+PC9zY3JpcHQ+PG5vc2NyaXB0IGlkPSJfX25leHRfY3NzX19ET19OT1RfVVNFX18iPjwvbm9zY3JpcHQ+PC9oZWFkPjxib2R5PjxkaXYgaWQ9Il9fbmV4dCI+PC9kaXY+PHNjcmlwdCBzcmM9Ii9fbmV4dC9zdGF0aWMvY2h1bmtzL3JlYWN0LXJlZnJlc2guanMiPjwvc2NyaXB0PjxzY3JpcHQgaWQ9Il9fTkVYVF9EQVRBX18iIHR5cGU9ImFwcGxpY2F0aW9uL2pzb24iPnsicHJvcHMiOnsicGFnZVByb3BzIjp7InN0YXR1c0NvZGUiOjUwMH19LCJwYWdlIjoiL19lcnJvciIsInF1ZXJ5Ijp7fSwiYnVpbGRJZCI6ImRldmVsb3BtZW50IiwiaXNGYWxsYmFjayI6ZmFsc2UsImVyciI6eyJuYW1lIjoiT3ZlcndyaXRlTW9kZWxFcnJvciIsInNvdXJjZSI6InNlcnZlciIsIm1lc3NhZ2UiOiJDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuIiwic3RhY2siOiJPdmVyd3JpdGVNb2RlbEVycm9yOiBDYW5ub3Qgb3ZlcndyaXRlIGBBcHBsaWNhdGlvbkZvcm1gIG1vZGVsIG9uY2UgY29tcGlsZWQuXG4gICAgYXQgTW9uZ29vc2UubW9kZWwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbW9uZ29vc2VcXGxpYlxcbW9uZ29vc2UuanM6NTc1OjEzKVxuICAgIGF0IGV2YWwgKHdlYnBhY2staW50ZXJuYWw6Ly8vKHJzYykvLi9zcmMvbW9kZWxzL2FwcGxpY2F0aW9uLWZvcm0udHM6NTA6MTE0KVxuICAgIGF0IChyc2MpLy4vc3JjL21vZGVscy9hcHBsaWNhdGlvbi1mb3JtLnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6ODI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgZXZhbCAod2VicGFjay1pbnRlcm5hbDovLy8ocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHM6ODo4MilcbiAgICBhdCAocnNjKS8uL3NyYy9hcHAvYXBpL2FwbGljYWNpb24vcm91dGUudHMgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo2MjoxKVxuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18gKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXHdlYnBhY2stcnVudGltZS5qczozMzo0MilcbiAgICBhdCBldmFsICh3ZWJwYWNrLWludGVybmFsOi8vLyhyc2MpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1hcHAtbG9hZGVyLmpzP25hbWU9YXBwJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlXHUwMDI2cGFnZT0lMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZhcHBQYXRocz1cdTAwMjZwYWdlUGF0aD1wcml2YXRlLW5leHQtYXBwLWRpciUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZS50c1x1MDAyNmFwcERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlJTVDc3JjJTVDYXBwXHUwMDI2cGFnZUV4dGVuc2lvbnM9dHN4XHUwMDI2cGFnZUV4dGVuc2lvbnM9dHNcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz1qc1x1MDAyNnJvb3REaXI9QyUzQSU1Q1VzZXJzJTVDQ29ycmElNUNXZWJzdG9ybVByb2plY3RzJTVDZGFiZW5hLW5leHQtd2Vic2l0ZVx1MDAyNmlzRGV2PXRydWVcdTAwMjZ0c2NvbmZpZ1BhdGg9dHNjb25maWcuanNvblx1MDAyNmJhc2VQYXRoPVx1MDAyNmFzc2V0UHJlZml4PVx1MDAyNm5leHRDb25maWdPdXRwdXQ9XHUwMDI2cHJlZmVycmVkUmVnaW9uPVx1MDAyNm1pZGRsZXdhcmVDb25maWc9ZTMwJTNEIToxNToxNDApXG4gICAgYXQgKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZhcGklMkZhcGxpY2FjaW9uJTJGcm91dGVcdTAwMjZwYWdlPSUyRmFwaSUyRmFwbGljYWNpb24lMkZyb3V0ZVx1MDAyNmFwcFBhdGhzPVx1MDAyNnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYXBpJTJGYXBsaWNhY2lvbiUyRnJvdXRlLnRzXHUwMDI2YXBwRGlyPUMlM0ElNUNVc2VycyU1Q0NvcnJhJTVDV2Vic3Rvcm1Qcm9qZWN0cyU1Q2RhYmVuYS1uZXh0LXdlYnNpdGUlNUNzcmMlNUNhcHBcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c3hcdTAwMjZwYWdlRXh0ZW5zaW9ucz10c1x1MDAyNnBhZ2VFeHRlbnNpb25zPWpzeFx1MDAyNnBhZ2VFeHRlbnNpb25zPWpzXHUwMDI2cm9vdERpcj1DJTNBJTVDVXNlcnMlNUNDb3JyYSU1Q1dlYnN0b3JtUHJvamVjdHMlNUNkYWJlbmEtbmV4dC13ZWJzaXRlXHUwMDI2aXNEZXY9dHJ1ZVx1MDAyNnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uXHUwMDI2YmFzZVBhdGg9XHUwMDI2YXNzZXRQcmVmaXg9XHUwMDI2bmV4dENvbmZpZ091dHB1dD1cdTAwMjZwcmVmZXJyZWRSZWdpb249XHUwMDI2bWlkZGxld2FyZUNvbmZpZz1lMzAlM0QhIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6NTI6MSlcbiAgICBhdCBfX3dlYnBhY2tfcmVxdWlyZV9fIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFx3ZWJwYWNrLXJ1bnRpbWUuanM6MzM6NDIpXG4gICAgYXQgX193ZWJwYWNrX2V4ZWNfXyAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcYXBwXFxhcGlcXGFwbGljYWNpb25cXHJvdXRlLmpzOjkyOjM5KVxuICAgIGF0IEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXC5uZXh0XFxzZXJ2ZXJcXGFwcFxcYXBpXFxhcGxpY2FjaW9uXFxyb3V0ZS5qczo5Mzo4M1xuICAgIGF0IF9fd2VicGFja19yZXF1aXJlX18uWCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcLm5leHRcXHNlcnZlclxcd2VicGFjay1ydW50aW1lLmpzOjE2ODoyMSlcbiAgICBhdCBDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTM6NDdcbiAgICBhdCBPYmplY3QuXHUwMDNjYW5vbnltb3VzXHUwMDNlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFwubmV4dFxcc2VydmVyXFxhcHBcXGFwaVxcYXBsaWNhY2lvblxccm91dGUuanM6OTY6MylcbiAgICBhdCBNb2R1bGUuX2NvbXBpbGUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEzNzg6MTQpXG4gICAgYXQgTW9kdWxlLl9leHRlbnNpb25zLi5qcyAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTQzNzoxMClcbiAgICBhdCBNb2R1bGUubG9hZCAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2Nqcy9sb2FkZXI6MTIxMjozMilcbiAgICBhdCBNb2R1bGUuX2xvYWQgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEwMjg6MTIpXG4gICAgYXQgTW9kdWxlLnJlcXVpcmUgKG5vZGU6aW50ZXJuYWwvbW9kdWxlcy9janMvbG9hZGVyOjEyMzc6MTkpXG4gICAgYXQgbW9kLnJlcXVpcmUgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxyZXF1aXJlLWhvb2suanM6NjU6MjgpXG4gICAgYXQgcmVxdWlyZSAobm9kZTppbnRlcm5hbC9tb2R1bGVzL2hlbHBlcnM6MTc2OjE4KVxuICAgIGF0IHJlcXVpcmVQYWdlIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxccmVxdWlyZS5qczoxMDk6ODQpXG4gICAgYXQgQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODo4NFxuICAgIGF0IGFzeW5jIGxvYWRDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxvYWQtY29tcG9uZW50cy5qczo5ODoyNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXG5leHQtc2VydmVyLmpzOjcxMDozNilcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIuZmluZFBhZ2VDb21wb25lbnRzIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6NTc3OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5yZW5kZXJQYWdlQ29tcG9uZW50IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6MTkwNToyNClcbiAgICBhdCBhc3luYyBEZXZTZXJ2ZXIucmVuZGVyVG9SZXNwb25zZUltcGwgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxiYXNlLXNlcnZlci5qczoxOTU3OjMyKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5waXBlSW1wbCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGJhc2Utc2VydmVyLmpzOjkxNToyNSlcbiAgICBhdCBhc3luYyBOZXh0Tm9kZVNlcnZlci5oYW5kbGVDYXRjaGFsbFJlbmRlclJlcXVlc3QgKEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxuZXh0LXNlcnZlci5qczoyNzI6MTcpXG4gICAgYXQgYXN5bmMgRGV2U2VydmVyLmhhbmRsZVJlcXVlc3RJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcYmFzZS1zZXJ2ZXIuanM6ODExOjE3KVxuICAgIGF0IGFzeW5jIEM6XFxVc2Vyc1xcQ29ycmFcXFdlYnN0b3JtUHJvamVjdHNcXGRhYmVuYS1uZXh0LXdlYnNpdGVcXG5vZGVfbW9kdWxlc1xcbmV4dFxcZGlzdFxcc2VydmVyXFxkZXZcXG5leHQtZGV2LXNlcnZlci5qczozMzk6MjBcbiAgICBhdCBhc3luYyBTcGFuLnRyYWNlQXN5bmNGbiAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFx0cmFjZVxcdHJhY2UuanM6MTU0OjIwKVxuICAgIGF0IGFzeW5jIERldlNlcnZlci5oYW5kbGVSZXF1ZXN0IChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcZGV2XFxuZXh0LWRldi1zZXJ2ZXIuanM6MzM2OjI0KVxuICAgIGF0IGFzeW5jIGludm9rZVJlbmRlciAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczoxNzQ6MjEpXG4gICAgYXQgYXN5bmMgaGFuZGxlUmVxdWVzdCAoQzpcXFVzZXJzXFxDb3JyYVxcV2Vic3Rvcm1Qcm9qZWN0c1xcZGFiZW5hLW5leHQtd2Vic2l0ZVxcbm9kZV9tb2R1bGVzXFxuZXh0XFxkaXN0XFxzZXJ2ZXJcXGxpYlxccm91dGVyLXNlcnZlci5qczozNTM6MjQpXG4gICAgYXQgYXN5bmMgcmVxdWVzdEhhbmRsZXJJbXBsIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxyb3V0ZXItc2VydmVyLmpzOjM3NzoxMylcbiAgICBhdCBhc3luYyBTZXJ2ZXIucmVxdWVzdExpc3RlbmVyIChDOlxcVXNlcnNcXENvcnJhXFxXZWJzdG9ybVByb2plY3RzXFxkYWJlbmEtbmV4dC13ZWJzaXRlXFxub2RlX21vZHVsZXNcXG5leHRcXGRpc3RcXHNlcnZlclxcbGliXFxzdGFydC1zZXJ2ZXIuanM6MTQxOjEzKSJ9LCJnaXAiOnRydWUsInNjcmlwdExvYWRlciI6W119PC9zY3JpcHQ+PC9ib2R5PjwvaHRtbD4=" />
+              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="code" value="500" />
+              <option name="contentType" value="text/html; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Cache-Control" />
+                    <option name="value" value="no-store, must-revalidate" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Next.js" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="&quot;17fnz0mv27u5tz&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="text/html; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Accept-Encoding" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Encoding" />
+                    <option name="value" value="gzip" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 12:04:42 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9e1a0233-f946-4274-9726-8cf1de9d84fc" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="HTML" />
+              <option name="previewType" value="HTML" />
+              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style data-next-hide-fouc=&quot;true&quot;&gt;body{display:none}&lt;/style&gt;&lt;noscript data-next-hide-fouc=&quot;true&quot;&gt;&lt;style&gt;body{display:block}&lt;/style&gt;&lt;/noscript&gt;&lt;meta charSet=&quot;utf-8&quot;/&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&gt;&lt;meta name=&quot;next-head-count&quot; content=&quot;2&quot;/&gt;&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;&lt;script defer=&quot;&quot; nomodule=&quot;&quot; src=&quot;/_next/static/chunks/polyfills.js&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/webpack.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/main.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_app.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/chunks/pages/_error.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_buildManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;script src=&quot;/_next/static/development/_ssgManifest.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;&lt;noscript id=&quot;__next_css__DO_NOT_USE__&quot;&gt;&lt;/noscript&gt;&lt;/head&gt;&lt;body&gt;&lt;div id=&quot;__next&quot;&gt;&lt;/div&gt;&lt;script src=&quot;/_next/static/chunks/react-refresh.js&quot;&gt;&lt;/script&gt;&lt;script id=&quot;__NEXT_DATA__&quot; type=&quot;application/json&quot;&gt;{&quot;props&quot;:{&quot;pageProps&quot;:{&quot;statusCode&quot;:500}},&quot;page&quot;:&quot;/_error&quot;,&quot;query&quot;:{},&quot;buildId&quot;:&quot;development&quot;,&quot;isFallback&quot;:false,&quot;err&quot;:{&quot;name&quot;:&quot;OverwriteModelError&quot;,&quot;source&quot;:&quot;server&quot;,&quot;message&quot;:&quot;Cannot overwrite `ApplicationForm` model once compiled.&quot;,&quot;stack&quot;:&quot;OverwriteModelError: Cannot overwrite `ApplicationForm` model once compiled.\n    at Mongoose.model (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\mongoose\\lib\\mongoose.js:575:13)\n    at eval (webpack-internal:///(rsc)/./src/models/application-form.ts:50:114)\n    at (rsc)/./src/models/application-form.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:82:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./src/app/api/aplicacion/route.ts:8:82)\n    at (rsc)/./src/app/api/aplicacion/route.ts (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:62:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at eval (webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D!:15:140)\n    at (rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fapi%2Faplicacion%2Froute\u0026page=%2Fapi%2Faplicacion%2Froute\u0026appPaths=\u0026pagePath=private-next-app-dir%2Fapi%2Faplicacion%2Froute.ts\u0026appDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website%5Csrc%5Capp\u0026pageExtensions=tsx\u0026pageExtensions=ts\u0026pageExtensions=jsx\u0026pageExtensions=js\u0026rootDir=C%3A%5CUsers%5CCorra%5CWebstormProjects%5Cdabena-next-website\u0026isDev=true\u0026tsconfigPath=tsconfig.json\u0026basePath=\u0026assetPrefix=\u0026nextConfigOutput=\u0026preferredRegion=\u0026middlewareConfig=e30%3D! (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:52:1)\n    at __webpack_require__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:33:42)\n    at __webpack_exec__ (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:92:39)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:83\n    at __webpack_require__.X (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\webpack-runtime.js:168:21)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:93:47\n    at Object.\u003canonymous\u003e (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\.next\\server\\app\\api\\aplicacion\\route.js:96:3)\n    at Module._compile (node:internal/modules/cjs/loader:1378:14)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1437:10)\n    at Module.load (node:internal/modules/cjs/loader:1212:32)\n    at Module._load (node:internal/modules/cjs/loader:1028:12)\n    at Module.require (node:internal/modules/cjs/loader:1237:19)\n    at mod.require (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require-hook.js:65:28)\n    at require (node:internal/modules/helpers:176:18)\n    at requirePage (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\require.js:109:84)\n    at C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:84\n    at async loadComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\load-components.js:98:26)\n    at async DevServer.findPageComponentsImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:710:36)\n    at async DevServer.findPageComponents (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:577:20)\n    at async DevServer.renderPageComponent (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1905:24)\n    at async DevServer.renderToResponseImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:1957:32)\n    at async DevServer.pipeImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:915:25)\n    at async NextNodeServer.handleCatchallRenderRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\next-server.js:272:17)\n    at async DevServer.handleRequestImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\base-server.js:811:17)\n    at async C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:339:20\n    at async Span.traceAsyncFn (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\trace\\trace.js:154:20)\n    at async DevServer.handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:336:24)\n    at async invokeRender (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:174:21)\n    at async handleRequest (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:353:24)\n    at async requestHandlerImpl (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\router-server.js:377:13)\n    at async Server.requestListener (C:\\Users\\Corra\\WebstormProjects\\dabena-next-website\\node_modules\\next\\dist\\server\\lib\\start-server.js:141:13)&quot;},&quot;gip&quot;:true,&quot;scriptLoader&quot;:[]}&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="size" value="1557" />
+              <option name="time" value="37" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713960316387" />
+          <option name="id" value="ed149f3b-d652-4371-a01d-3f944dffff6e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="code" value="500" />
+              <option name="contentType" value="application/octet-stream" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 12:05:16 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ed149f3b-d652-4371-a01d-3f944dffff6e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="time" value="2047" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713960324037" />
+          <option name="id" value="634df94b-f0a7-47ee-bba6-0fc1c00e205f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;nombre&quot;: &quot;Joe&quot;,&#10;  &quot;apellido&quot;: &quot;Corrales&quot;,&#10;  &quot;correo&quot;: &quot;corralesjoe07@gmail.com&quot;,&#10;  &quot;numero&quot;: &quot;97657639&quot;,&#10;  &quot;genero&quot;: &quot;masculino&quot;,&#10;  &quot;cumple&quot;: &quot;2024-04-04&quot;,&#10;  &quot;identidad&quot;: &quot;0501 2004 08469&quot;,&#10;  &quot;domicilio&quot;: &quot;12 Calle 12 Calle 12 Calle 12 Calle&quot;,&#10;  &quot;comentario&quot;: &quot;&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="49922082-d8bc-4a19-8cf0-3e9eaa7e7b71" />
+              <option name="method" value="POST" />
+              <option name="name" value="New Application" />
+              <option name="url" value="http://localhost:3000/api/aplicacion" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkYXRhIjpudWxsfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;data&quot; : null&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="vary" />
+                    <option name="value" value="RSC, Next-Router-State-Tree, Next-Router-Prefetch" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 24 Apr 2024 12:05:24 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="634df94b-f0a7-47ee-bba6-0fc1c00e205f" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;data&quot;:null}" />
+              <option name="size" value="13" />
+              <option name="time" value="1563" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
