@@ -2,11 +2,12 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { EmblaOptionsType } from 'embla-carousel'
 import useEmblaCarousel from 'embla-carousel-react'
 import { Thumb } from './thumbnail-carousel-thumbs-btns'
+import { Image } from "@nextui-org/react";
 
 import '@/styles/thumbnail-product-carousel.css'
 
 type PropType = {
-    slides: number[]
+    slides: string[] // Cambiado de number[] a string[] para URLs de imágenes
     options?: EmblaOptionsType
 }
 
@@ -45,12 +46,13 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
             <div className="embla-tpc-thumbs">
                 <div className="embla-tpc-thumbs__viewport" ref={emblaThumbsRef}>
                     <div className="embla-tpc-thumbs__container">
-                        {slides.map((index) => (
+                        {slides.map((slide, index) => (
                             <Thumb
                                 key={index}
                                 onClick={() => onThumbClick(index)}
                                 selected={index === selectedIndex}
                                 index={index}
+                                imageUrl={slide} // Pasamos la URL de la imagen
                             />
                         ))}
                     </div>
@@ -59,14 +61,18 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
 
             <div className="embla-tpc__viewport" ref={emblaMainRef}>
                 <div className="embla-tpc__container">
-                    {slides.map((index: number) => (
+                    {slides.map((slide: string, index: number) => (
                         <div className="embla-tpc__slide" key={index}>
-                            <div className="embla-tpc__slide__number">{index + 1}</div>
+                            <Image
+                                src={slide}
+                                alt={`Producto vista ${index + 1}`}
+                                className="embla-tpc__slide__img"
+                                fallbackSrc="/assets/frasco-vigo.png"
+                            />
                         </div>
                     ))}
                 </div>
             </div>
-
         </div>
     )
 }
