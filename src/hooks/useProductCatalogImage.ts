@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { CloudinaryFolderService } from '../lib/cloudinary-folder';
 
 export const useProductCatalogImage = (folderCloudinary: string) => {
-  const [imageUrl, setImageUrl] = useState<string>('/assets/frasco-vigo.png');
+  const [imageUrl, setImageUrl] = useState<string>('/assets/botelladefault.png');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -17,7 +17,7 @@ export const useProductCatalogImage = (folderCloudinary: string) => {
         setImageUrl(url);
       } catch (err) {
         console.error('Error fetching catalog image:', err);
-        setImageUrl('/assets/frasco-vigo.png'); // Fallback
+        setImageUrl('/assets/botelladefault.png'); // Fallback
         setError('Error al cargar la imagen');
       } finally {
         setLoading(false);

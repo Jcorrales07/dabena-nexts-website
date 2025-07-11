@@ -27,7 +27,7 @@ export const Thumb: React.FC<PropType> = (props) => {
                         src={imageUrl}
                         alt={`Thumbnail ${index + 1}`}
                         className="embla-tpc-thumbs__slide__img"
-                        fallbackSrc="/assets/frasco-vigo.png"
+                        fallbackSrc="/assets/botelladefault.png"
                     />
                 ) : (
                     index + 1

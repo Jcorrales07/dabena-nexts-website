@@ -9,7 +9,7 @@ const ProductCard: React.FC<{product: any, isClient: boolean}> = ({ product, isC
     // Usar la primera imagen del array (delantero) o fallback
     const imageUrl = product.imagenes && product.imagenes.length > 0 
         ? product.imagenes[0] 
-        : '/assets/frasco-vigo.png';
+        : '/assets/botelladefault.png';
 
     return (
         <Card className="w-full" radius="none">
@@ -19,7 +19,7 @@ const ProductCard: React.FC<{product: any, isClient: boolean}> = ({ product, isC
                     radius="none"
                     src={imageUrl}
                     className="w-screen h-[486.4px] object-contain"
-                    fallbackSrc="/assets/frasco-vigo.png"
+                    fallbackSrc="/assets/botelladefault.png"
                 />
             </CardHeader>
             <CardBody>

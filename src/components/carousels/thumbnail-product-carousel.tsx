@@ -67,7 +67,7 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
                                 src={slide}
                                 alt={`Producto vista ${index + 1}`}
                                 className="embla-tpc__slide__img"
-                                fallbackSrc="/assets/frasco-vigo.png"
+                                fallbackSrc="/assets/botelladefault.png"
                             />
                         </div>
                     ))}

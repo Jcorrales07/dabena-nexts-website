@@ -44,12 +44,12 @@ export class CloudinaryFolderService {
     if (imagesObject.detalles) orderedImages.push(imagesObject.detalles);
     
     // Si no hay imágenes, devolver fallback
-    return orderedImages.length > 0 ? orderedImages : ['/assets/frasco-vigo.png'];
+    return orderedImages.length > 0 ? orderedImages : ['/assets/botelladefault.png'];
   }
 
   // Método para obtener solo la imagen delantero (para catálogo)
   async getProductDelanteroImage(folderCloudinary: string): Promise<string> {
     const imagesObject = await this.getProductFolderImages(folderCloudinary);
-    return imagesObject.delantero || '/assets/frasco-vigo.png';
+    return imagesObject.delantero || '/assets/botelladefault.png';
   }
 }

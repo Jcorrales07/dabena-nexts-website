@@ -38,7 +38,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
     // Usar las imágenes que ya vienen en el producto
     const SLIDES = product.imagenes && product.imagenes.length > 0 
         ? product.imagenes 
-        : ['/assets/frasco-vigo.png'];
+        : ['/assets/botelladefault.png'];
 
     const defaultContent = product.descripcion || 
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";

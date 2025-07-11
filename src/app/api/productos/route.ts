@@ -35,7 +35,7 @@ interface Product extends SheetDBProduct {
 // Función para generar imágenes de fallback
 function getFallbackImages(productName: string): string[] {
   // Imagen por defecto para todos los tipos
-  const defaultImage = '/assets/frasco-vigo.png';
+  const defaultImage = '/assets/botelladefault.png';
   
   // Puedes personalizar esto según el tipo de producto o nombre
   const fallbackImages = [
