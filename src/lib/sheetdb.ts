@@ -12,6 +12,7 @@ export const sheetdbClient = {
 
             console.log('datadata', data)
 
+            // transformacion de datos
             const productos: Product[] = data.map((ele: any): Product => ({
                 id: Number(ele.id),
                 nombre: ele.nombre,
