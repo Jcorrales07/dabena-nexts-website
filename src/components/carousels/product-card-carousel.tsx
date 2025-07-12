@@ -50,7 +50,7 @@ const ProductCardCarousel: React.FC<PropType> = (props) => {
                                     radius="none"
                                     alt={item.title}
                                     className="w-screen object-cover h-full"
-                                    src={'/assets/frasco-vigo.png'}
+                                    src={'/assets/botella-fallback.png'}
                                 />
                             </CardBody>
                             <CardFooter className="text-small justify-between">

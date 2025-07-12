@@ -2,11 +2,19 @@
 
 import React, {useState, useEffect} from 'react';
 import {Button, Card, CardBody, CardFooter, CardHeader, Image, Link} from "@nextui-org/react";
+import { usePresence } from 'framer-motion';
+import { useProducts } from '@/hooks/useProducts';
 
 function ProductsCatalog() {
     const [cantProducts, setCantProducts] = useState(6);
     const [clicked, setClicked] = useState(false);
     const [isClient, setIsClient] = useState(false);
+
+    const {products, loading, error} = useProducts();
+
+    // console.log(loading)
+    // console.log(error)
+    // console.log(products)
 
     const handleButtonClick = () => {
         // Cuando le doy click, me debe de scrollear al primer producto nuevo que despliega, asi se que ya se muestran
@@ -49,8 +57,8 @@ function ProductsCatalog() {
                             <Image
                                 alt="nextui logo"
                                 radius="none"
-                                src="/assets/frasco-vigo.png"
-                                className="w-screen h-[486.4px] object-cover"
+                                src="/assets/botella-fallback.png"
+                                className="object-contain"
                             />
                         </CardHeader>
                         <CardBody>
