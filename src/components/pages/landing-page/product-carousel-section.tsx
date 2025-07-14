@@ -1,70 +1,39 @@
-import React from 'react';
-import {ProductCardCarousel, SlideItem} from "@/components/carousels/";
+import React, { useEffect, useState } from 'react';
+import { ProductCardCarousel, SlideItem } from "@/components/carousels/";
+import { useProducts } from '@/hooks/useProducts';
 
-const OPTIONS = {dragFree: true}
-const SLIDE_COUNT = 12
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
-
-const list: SlideItem[] = [
-    {
-        title: "Orange",
-        img: "/assets/img1.jpg",
-        price: "$5.50",
-    },
-    {
-        title: "Tangerine",
-        img: "/assets/img2.jpg",
-        price: "$3.00",
-    },
-    {
-        title: "Raspberry",
-        img: "/assets/img3.jpg",
-        price: "$10.00",
-    },
-    {
-        title: "Lemon",
-        img: "/assets/img4.jpg",
-        price: "$5.30",
-    },
-    {
-        title: "Avocado",
-        img: "/assets/img5.jpg",
-        price: "$15.70",
-    },
-    {
-        title: "Lemon 2",
-        img: "/assets/img1.jpg",
-        price: "$8.00",
-    },
-    {
-        title: "Banana",
-        img: "/assets/img3.jpg",
-        price: "$7.50",
-    },
-    {
-        title: "Watermelon",
-        img: "/assets/img2.jpg",
-        price: "$12.20",
-    },
-];
+const OPTIONS = { dragFree: true };
 
 const ProductCarouselSection = () => {
-    return (
-        <section
-            className="lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] w-full flex flex-col">
+  const { products, loading, error } = useProducts();
 
-            <div className={'flex flex-col gap-[80px]'}>
+  // Transformar los productos al formato que espera el carousel
+  const slides: SlideItem[] = products.map((product) => ({
+    id: product.id,
+    title: product.nombre,
+    img: product.imagenes.delantero, // fallback si falta imagen
+    price: `L${product.precioPublico.toFixed(2)}`,
+  })) || [];
 
-                <section>
-                    <h2 className="text-4xl lg:text-5xl font-bold mb-4">Productos Destacados</h2>
-                    <p className="text-base lg:text-lg">Descubre lo mas querido por nuestros clientes!</p>
-                </section>
-
-                {/*Personalizar las targetas de los productos*/}
-                <ProductCardCarousel slides={list} options={OPTIONS}/>
-            </div>
+  return (
+    <section className="lg:px-[64px] lg:py-[112px] px-[20px] py-[64px] w-full flex flex-col">
+      <div className="flex flex-col gap-[80px]">
+        <section>
+          <h2 className="text-4xl lg:text-5xl font-bold mb-4">Productos Destacados</h2>
+          <p className="text-base lg:text-lg">Descubre lo más querido por nuestros clientes!</p>
         </section>
-    );
+
+        {loading && <p>Cargando productos...</p>}
+        {error && <p>Error al cargar los productos.</p>}
+        {!loading && !error && slides.length > 0 && (
+          <ProductCardCarousel slides={slides} options={OPTIONS} />
+        )}
+        {!loading && !error && slides.length === 0 && (
+          <p>No hay productos disponibles en este momento.</p>
+        )}
+      </div>
+    </section>
+  );
 };
 
 export default ProductCarouselSection;
