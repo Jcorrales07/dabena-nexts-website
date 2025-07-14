@@ -49,7 +49,7 @@ const ProductCardCarousel: React.FC<PropType> = (props) => {
                                     shadow="sm"
                                     radius="none"
                                     alt={item.title}
-                                    className="w-screen object-cover h-full"
+                                    className="w-screen object-cover h-full "
                                     src={'/assets/botella-fallback.png'}
                                 />
                             </CardBody>
