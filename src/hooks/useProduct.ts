@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Product } from '../types/product';
 import { sheetdbClient } from '../lib/sheetdb';
 
-export const useProduct = (productId: string) => {
+export const useProduct = (productId: number) => {
   const [product, setProduct] = useState<Product | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

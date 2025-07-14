@@ -12,7 +12,7 @@ interface ProductHeader1Props {
 }
 
 export default function ProductHeader1({productoID} : ProductHeader1Props) {
-    const { product, loading, error } = useProduct(productoID);
+    const { product, loading, error } = useProduct(parseInt(productoID));
 
     if (loading) {
         return (
