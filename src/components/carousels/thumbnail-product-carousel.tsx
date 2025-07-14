@@ -47,13 +47,14 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
                 <div className="embla-tpc-thumbs__viewport" ref={emblaThumbsRef}>
                     <div className="embla-tpc-thumbs__container">
                         {slides.map((slide, index) => (
+                            slide !== null ?
                             <Thumb
                                 key={index}
                                 onClick={() => onThumbClick(index)}
                                 selected={index === selectedIndex}
                                 index={index}
                                 imageUrl={slide} // Pasamos la URL de la imagen
-                            />
+                            /> : <></>
                         ))}
                     </div>
                 </div>
@@ -62,14 +63,17 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
             <div className="embla-tpc__viewport" ref={emblaMainRef}>
                 <div className="embla-tpc__container">
                     {slides.map((slide: string, index: number) => (
-                        <div className="embla-tpc__slide" key={index}>
+                        slide !== null ?
+                        <div className="embla-tpc__slide flex justify-center" key={index}>
                             <Image
                                 src={slide}
                                 alt={`Producto vista ${index + 1}`}
-                                className="embla-tpc__slide__img"
+                                className="embla-tpc__slide__img h-[600px] object-contain"
                                 fallbackSrc="/assets/botelladefault.png"
+                                loading='eager'
                             />
                         </div>
+                        : <></>
                     ))}
                 </div>
             </div>

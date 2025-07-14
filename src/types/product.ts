@@ -6,5 +6,10 @@ export interface Product {
     contenidoNeto: number;
     tipoProducto: string;
     folderCloudinary: string;
-    imagenes: object;
+    imagenes: {
+        caja: string;
+        delantero: string;
+        trasero: string;
+        detalles: string;
+    };
 }

@@ -36,8 +36,8 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
     }
 
     // Usar las imágenes que ya vienen en el producto
-    const SLIDES = product.imagenes && Object.keys(product.imagenes).length > 0 
-        ? Object.values(product.imagenes) 
+    const SLIDES: string[] = product.imagenes && Object.keys(product.imagenes).length > 0 
+        ? Object.values(JSON.parse(`${product.imagenes}`)) 
         : ['/assets/botella-fallback.png'];
 
     const defaultContent = product.descripcion || 
