@@ -46,15 +46,14 @@ const ThumbnailProductCarousel: React.FC<PropType> = (props) => {
             <div className="embla-tpc-thumbs">
                 <div className="embla-tpc-thumbs__viewport" ref={emblaThumbsRef}>
                     <div className="embla-tpc-thumbs__container">
-                        {slides.map((slide, index) => (
-                            slide !== null ?
+                        {slides.filter(i => i !== null).map((slide, index) => (
                             <Thumb
                                 key={index}
                                 onClick={() => onThumbClick(index)}
                                 selected={index === selectedIndex}
                                 index={index}
                                 imageUrl={slide} // Pasamos la URL de la imagen
-                            /> : <></>
+                            /> 
                         ))}
                     </div>
                 </div>

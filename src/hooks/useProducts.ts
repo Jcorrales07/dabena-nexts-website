@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, cache } from 'react'
 import { Product } from '@/types/product'
 import { sheetdbClient } from '@/lib/sheetdb'
 
@@ -11,9 +11,19 @@ export const useProducts = () => {
         const fetchProducts = async () => {
             try {
                 setLoading(true);
+
+                const cached = sessionStorage.getItem('productsCache')
+
+                if (cached) {
+                    const parsed = JSON.parse(cached)
+                    setProducts(parsed)
+                    setLoading(false)
+                    return
+                }
+
                 const data = await sheetdbClient.getProducts();
-                console.log('data', data)
                 setProducts(data);
+                sessionStorage.setItem('productsCache', JSON.stringify(data))
             } catch (err) {
                 setError('Error al cargar los productos');
                 console.error(err);

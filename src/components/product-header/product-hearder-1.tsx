@@ -1,8 +1,8 @@
 "use client"
-import {BreadcrumbItem, Breadcrumbs, Button, Image, Input, Link, Spinner} from "@nextui-org/react";
-import {ThumbnailProductCarousel} from "@/components/carousels";
-import {EmblaOptionsType} from "embla-carousel";
-import {Accordion, AccordionItem} from "@nextui-org/react";
+import { BreadcrumbItem, Breadcrumbs, Button, Image, Input, Link, Spinner } from "@nextui-org/react";
+import { ThumbnailProductCarousel } from "@/components/carousels";
+import { EmblaOptionsType } from "embla-carousel";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 import { useProduct } from '../../hooks/useProduct';
 
 const OPTIONS: EmblaOptionsType = {}
@@ -11,7 +11,7 @@ interface ProductHeader1Props {
     productoID: string
 }
 
-export default function ProductHeader1({productoID} : ProductHeader1Props) {
+export default function ProductHeader1({ productoID }: ProductHeader1Props) {
     const { product, loading, error } = useProduct(parseInt(productoID));
 
     if (loading) {
@@ -35,12 +35,23 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
         );
     }
 
-    // Usar las imágenes que ya vienen en el producto
-    const SLIDES: string[] = product.imagenes && Object.keys(product.imagenes).length > 0 
-        ? Object.values(JSON.parse(`${product.imagenes}`)) 
-        : ['/assets/botella-fallback.png'];
 
-    const defaultContent = product.descripcion || 
+    console.log(typeof product.imagenes)
+
+    // Usar las imágenes que ya vienen en el producto
+    const imagenesParsed =
+        typeof product.imagenes !== 'object'
+            ? JSON.parse(product.imagenes)
+            : product.imagenes;
+
+    const SLIDES: string[] =
+        imagenesParsed && Object.keys(imagenesParsed).length > 0
+            ? Object.values(imagenesParsed)
+            : ['/assets/botella-fallback.png'];
+
+
+
+    const defaultContent = product.descripcion ||
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
     return (
@@ -54,7 +65,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
             </section>
 
             <section className="flex flex-col lg:flex-row gap-20 pb-12 w-full">
-                <ThumbnailProductCarousel slides={SLIDES} options={OPTIONS}/>
+                <ThumbnailProductCarousel slides={SLIDES} options={OPTIONS} />
 
                 <section className="w-full flex flex-col gap-8">
                     <section className="w-full flex flex-col gap-5">
@@ -111,7 +122,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
                             </form>
                         </section> */}
                     </section>
-                    
+
                     <section className="">
                         <Accordion>
                             <AccordionItem key="1" aria-label="Información del producto" title="Información del producto">
