@@ -36,9 +36,9 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
     }
 
     // Usar las imágenes que ya vienen en el producto
-    const SLIDES = product.imagenes && product.imagenes.length > 0 
-        ? product.imagenes 
-        : ['/assets/botelladefault.png'];
+    const SLIDES = product.imagenes && Object.keys(product.imagenes).length > 0 
+        ? Object.values(product.imagenes) 
+        : ['/assets/botella-fallback.png'];
 
     const defaultContent = product.descripcion || 
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
@@ -61,7 +61,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
                         <div>
                             <div>
                                 <h3 className="text-[32px] lg:text-[40px] font-bold">{product.nombre}</h3>
-                                <h5 className="text-xl lg:text-2xl font-bold">L {product.precio}</h5>
+                                <h5 className="text-xl lg:text-2xl font-bold">L {product.precioPublico}</h5>
                             </div>
 
                             <div>
@@ -72,7 +72,8 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
                             <p>{product.descripcion || 'Descripción del producto destacado'}</p>
                         </div>
 
-                        <section>
+                        {/* Seccion variantes */}
+                        {/* <section>
                             <form action="" method="post" className="flex flex-col gap-6">
                                 {product.variantes && product.variantes.length > 0 && (
                                     <fieldset>
@@ -108,7 +109,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
                                     <p className="text-center text-[12px]">Envío gratis por compras mayores a L 1000</p>
                                 </div>
                             </form>
-                        </section>
+                        </section> */}
                     </section>
                     
                     <section className="">
@@ -128,7 +129,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
             </section>
 
             {/* Debug info */}
-            {process.env.NODE_ENV === 'development' && (
+            {/* {process.env.NODE_ENV === 'development' && (
                 <section className="w-full mt-8 p-4 bg-gray-100 rounded">
                     <h4 className="font-bold mb-2">Debug - Producto con imágenes:</h4>
                     <div className="text-xs space-y-1">
@@ -142,7 +143,7 @@ export default function ProductHeader1({productoID} : ProductHeader1Props) {
                         </ul>
                     </div>
                 </section>
-            )}
+            )} */}
         </section>
     );
 }
