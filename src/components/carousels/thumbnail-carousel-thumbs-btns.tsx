@@ -1,13 +1,15 @@
 import React from 'react'
+import { Image } from "@nextui-org/react";
 
 type PropType = {
     selected: boolean
     index: number
     onClick: () => void
+    imageUrl?: string
 }
 
 export const Thumb: React.FC<PropType> = (props) => {
-    const { selected, index, onClick } = props
+    const { selected, index, onClick, imageUrl } = props
 
     return (
         <div
@@ -20,7 +22,16 @@ export const Thumb: React.FC<PropType> = (props) => {
                 type="button"
                 className="embla-tpc-thumbs__slide__number"
             >
-                {index + 1}
+                {imageUrl ? (
+                    <Image
+                        src={imageUrl}
+                        alt={`Thumbnail ${index + 1}`}
+                        className="embla-tpc-thumbs__slide__img"
+                        fallbackSrc="/assets/botelladefault.png"
+                    />
+                ) : (
+                    index + 1
+                )}
             </button>
         </div>
     )
