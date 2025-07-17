@@ -13,8 +13,8 @@ function CTALayout13() {
             <section className="flex-1 flex flex-col gap-6">
                 <p className="text-base lg:text-lg">Descubre cómo puedes obtener grandes descuentos al convertirte en mayorista de nuestros productos naturales.</p>
                 <div className="flex gap-4">
-                    <Button radius="sm" href="#aplicacion" as={Link}>Quiero Aplicar!</Button>
                     <Button radius="sm" href="#requisitos" as={Link}>Requisitos</Button>
+                    <Button radius="sm" href="#aplicacion" as={Link}>Quiero Aplicar!</Button>
                 </div>
             </section>
         </section>

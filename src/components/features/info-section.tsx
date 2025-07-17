@@ -21,11 +21,9 @@ export default function InfoSection({direction, title, subtext, img_url, img_alt
 
             <section className="flex gap-4 mt-4">
                 <Button href={"/productos"} as={Link} className="text-white" color="success" radius="sm"
-                        variant="solid">Comprar</Button>
+                        variant="solid">Ver Productos</Button>
                 <Button href={"#contacto"} as={Link} radius="sm"
                         variant="ghost">Contacto</Button>
-                <Button radius="sm"
-                        variant="ghost">Make api call</Button>
             </section>
         </section>
 

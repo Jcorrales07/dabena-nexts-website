@@ -20,7 +20,7 @@ export default function BenefitSection() {
                 <CardFooter className="flex justify-center">
                     <section className="flex gap-4 mt-4">
                         <Button href={"/productos"} as={Link} className="text-white" color="success" radius="sm"
-                                variant="solid">Comprar</Button>
+                                variant="solid">Ver Productos</Button>
                         <Button href={"#contacto"} as={Link} className="" radius="sm"
                                 variant="ghost">Contacto</Button>
                     </section>
@@ -33,14 +33,14 @@ export default function BenefitSection() {
                 </CardHeader>
                 <CardBody className={'p-0'}>
                     <section className="flex flex-col justify-center">
-                        <h4 className="text-2xl lg:text-4xl font-bold mb-4 text-center">Resultados rápidos y duraderos</h4>
+                        <h4 className="text-2xl lg:text-4xl font-bold mb-4 text-center">Resultados a su tiempo pero duraderos</h4>
                         <p className="text-base text-center">Nuestros productos naturales te ayudarán a alcanzar tus objetivos de salud de manera efectiva y sostenible.</p>
                     </section>
                 </CardBody>
                 <CardFooter className="flex justify-center">
                     <section className="flex gap-4 mt-4">
                         <Button href={"/productos"} as={Link} className="text-white" color="success" radius="sm"
-                                variant="solid">Comprar</Button>
+                                variant="solid">Ver Productos</Button>
                         <Button href={"#contacto"} as={Link} radius="sm"
                                 variant="ghost">Contacto</Button>
                     </section>
@@ -60,7 +60,7 @@ export default function BenefitSection() {
                 <CardFooter className="flex justify-center">
                     <section className="flex gap-4 mt-4">
                         <Button href={"/productos"} as={Link} className="text-white" color="success" radius="sm"
-                                variant="solid">Comprar</Button>
+                                variant="solid">Ver Productos</Button>
                         <Button href={"#contacto"} as={Link} radius="sm"
                                 variant="ghost">Contacto</Button>
                     </section>

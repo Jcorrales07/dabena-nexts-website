@@ -13,8 +13,7 @@ function ContactLayout369() {
 
 
             <section>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1LFXd0xuycKHMAxOy25obKVFNxfucVZY&ehbc=2E312F"
-                        width="100%" height="512" className=""></iframe>
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LFXd0xuycKHMAxOy25obKVFNxfucVZY&ehbc=2E312F&noprof=1" width="100%" height="650"></iframe>
             </section>
         </section>
     );
